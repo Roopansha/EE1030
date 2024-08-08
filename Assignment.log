@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.6)  7 AUG 2024 17:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.6)  8 AUG 2024 23:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Assignment.texjhK
+**Assignment.tex
 (./Assignment.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
@@ -1110,13 +1110,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file Assignment.aux.
+) (./Assignment.aux)
 \openout1 = `Assignment.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 50.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 50.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1243,249 +1243,68 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 50.
 LaTeX Info: Redefining \pageref on input line 50.
 LaTeX Info: Redefining \nameref on input line 50.
+
+(./Assignment.out) (./Assignment.out)
 \@outlinefile=\write5
 \openout5 = `Assignment.out'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--60
+Underfull \hbox (badness 10000) in paragraph at lines 57--59
 
  []
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 6
-1.
+0.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 6
-1.
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 6
-1.
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 6
-1.
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 6
-1.
+0.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--68
-
- []
-
-
-Underfull \hbox (badness 2221) in paragraph at lines 68--75
-[]\OT1/txr/m/n/12 If f(x)= $[][] \OML/txmi/m/it/12 e[]$\OT1/txr/m/n/12 dt ,then
- f(x)increases in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--75
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--79
-
- []
-
-
-Underfull \hbox (badness 5832) in paragraph at lines 79--83
-[]\OT1/txr/m/n/12 If f(x)is dif-fer-en-tiable and$[][] \OML/txmi/m/it/12 xf\OT1
-/txr/m/n/12 (\OML/txmi/m/it/12 x\OT1/txr/m/n/12 )\OML/txmi/m/it/12 dx \OT1/txr/
-m/n/12 =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 79--83
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 87--92
+Underfull \hbox (badness 10000) in paragraph at lines 101--105
 []\OT1/txr/m/n/12 The area en-closed be-tween the curves
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--92
+Underfull \vbox (badness 5245) has occurred while \output is active []
 
+
+Underfull \hbox (badness 1377) in paragraph at lines 118--121
+[]\OT1/txr/m/n/12 The area bounded by the parabo-las $\OML/txmi/m/it/12 y \OT1/
+txr/m/n/12 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--92
-
- []
-
-
-Underfull \vbox (badness 1082) has occurred while \output is active []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 92--96
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
-[]\OT1/txr/m/n/12 The area bounded by the parabo-las
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--101
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 101--109
-
- []
-
-
-Underfull \hbox (badness 3769) in paragraph at lines 109--116
+Underfull \hbox (badness 3769) in paragraph at lines 135--138
 []\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 f$\OT1/txr/m/n/12 be a non-negative fu
 nc-tion de-fined
  []
 
 
-Underfull \hbox (badness 3690) in paragraph at lines 109--116
-\OT1/txr/m/n/12 on the in-ter-val [$0$,1].If$[][] [] =
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 109--116
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-[]\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 f$ \OT1/txr/m/n/12 be a real val-ued f
-unc-tion
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 120--124
-\OT1/txr/m/n/12 de-fined on the in-ter-val (-1,1) such that
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-\OML/txmi/m/it/12 e[]f\OT1/txr/m/n/12 (\OML/txmi/m/it/12 x\OT1/txr/m/n/12 ) = 2
- + [][] []\OML/txmi/m/it/12 dt$\OT1/txr/m/n/12 , for all
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 120--124
-
+Underfull \hbox (badness 1590) in paragraph at lines 135--138
+\OT1/txr/m/n/12 on the in-ter-val $[] []$$\OMS/txsy/m/n/12 ^^A$\OT1/txr/m/n/12 
+If$[][] [] =
  []
 
 
@@ -1494,56 +1313,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 124--128
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--133
-
- []
-
-[2
+] [2
 
 ] (./Assignment.aux)
-
-Package rerunfilecheck Warning: File `Assignment.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Assignment.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `Assignment.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29621 strings out of 478287
- 583710 string characters out of 5849290
- 865931 words of memory out of 5000000
+ 29686 strings out of 478287
+ 584213 string characters out of 5849290
+ 881150 words of memory out of 5000000
  47170 multiletter control sequences out of 15000+600000
  527850 words of font info for 143 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,7n,96p,417b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,7n,96p,414b,558s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment.pdf (2 pages, 45420 bytes).
+Output written on Assignment.pdf (2 pages, 47237 bytes).
 PDF statistics:
- 69 PDF objects out of 1000 (max. 8388607)
- 52 compressed objects within 1 object stream
- 18 named destinations out of 1000 (max. 500000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 125 compressed objects within 2 object streams
+ 78 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
