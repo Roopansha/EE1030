@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.6)  28 AUG 2024 12:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.8.6)  3 SEP 2024 22:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Assignment2
-(./Assignment2
+**Assignment2.tex
+(./Assignment2.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/ieeetran/IEEEtran.cls
@@ -1386,23 +1386,23 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <recently read> \brak 
                       
 l.148 \item $\brak
-                  {f-f'}m^2 =ff'n$
+                  {f-f\prime}m^2 =ff\prime n$
 ? 
 ! Undefined control sequence.
 <recently read> \brak 
                       
 l.149 \item $\brak
-                  {f+f'}m^2 =ff'n$
+                  {f+f\prime}m^2 =ff\prime n$
 ? 
 ! Undefined control sequence.
 l.150 \item $\frac{1}{2}\brak
-                             {f+f'}m =ff'n^2$
+                             {f+f\prime}m =ff\prime n^2$
 ? 
 ! Undefined control sequence.
 <recently read> \brak 
                       
 l.151 \item $\brak
-                  {f'-f}n =ff'm^2$
+                  {f\prime-f}n =ff\prime m^2$
 ? 
 ! Undefined control sequence.
 <argument> 2\brak 
@@ -1424,12 +1424,12 @@ Package rerunfilecheck Info: Checksums for `Assignment2.out':
  ) 
 Here is how much of TeX's memory you used:
  29604 strings out of 478287
- 583304 string characters out of 5849290
+ 583312 string characters out of 5849290
  872830 words of memory out of 5000000
  47099 multiletter control sequences out of 15000+600000
  526792 words of font info for 142 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 101i,6n,96p,411b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,6n,96p,415b,545s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1437,7 +1437,7 @@ t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
 onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Assignment2.pdf (2 pages, 50813 bytes).
+Output written on Assignment2.pdf (2 pages, 50815 bytes).
 PDF statistics:
  148 PDF objects out of 1000 (max. 8388607)
  128 compressed objects within 2 object streams
