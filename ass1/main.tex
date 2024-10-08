@@ -21,8 +21,7 @@
 \usepackage{mathtools}
 \usepackage{gensymb}
 \usepackage{comment}
-\usepackage[breaklinks=true]{hyperref}
-\usepackage{tkz-euclide}
+\usepackage{listings}
 \def\inputGnumericTable{}                                 
 \usepackage[latin1]{inputenc}                                
 \usepackage{color}                                            
@@ -38,6 +37,11 @@
 \newcommand{\BEQA}{\begin{eqnarray}}
 \newcommand{\EEQA}{\end{eqnarray}}
 \newcommand{\define}{\stackrel{\triangle}{=}}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{ifthen}
+\usepackage{lscape}
 
 \begin{document}
 
@@ -46,25 +50,76 @@
 
 \title{3-3.2-26}
 \author{AI24BTECH11006 - Bugada Roopansha}
-
 {\let\newpage\relax\maketitle}  % Prevents the new page after title
 
 \renewcommand{\thefigure}{\theenumi}
 \renewcommand{\thetable}{\theenumi}
 \setlength{\intextsep}{10pt} % Space between text and floats
 
-\textbf{Question:}\\
-Construct a right triangle when one side is 3.5 cm, the sum of the other side and the hypotenuse is 5.5 cm.
+\[
+a = 3.5 \, \text{cm}, \quad b + c = 5.5 \, \text{cm}
+\]
 
-\textbf{Solution:}\\
-For \( a = 3.5 \, \text{cm} \), \( \angle B = 90\degree \), and \( b + c = 5.5 \, \text{cm} \), we can find the lengths of sides \( b \) and \( c \) to complete the triangle. The plot below illustrates the right triangle constructed based on these parameters.
+\[
+c = \sqrt{a^2 + b^2}
+\]
 
+\[
+5.5 - b = \sqrt{(3.5)^2 + b^2}
+\]
+
+\[
+(5.5 - b)^2 = (3.5)^2 + b^2
+\]
+
+\[
+30.25 - 11b + b^2 = 12.25 + b^2
+\]
+
+\[
+b = \frac{18}{11} \approx 1.64 \, \text{cm}
+\]
+
+\[
+c = 5.5 - b \approx 3.86 \, \text{cm}
+\]
+
+\[
+\mathbf{u} = \begin{bmatrix} 3.5 \\ 0 \end{bmatrix}, \quad \mathbf{c} = \begin{bmatrix} 3.5 \\ 1.64 \end{bmatrix}
+\]
+
+\[
+\mathbf{u} \cdot \mathbf{c} = 3.5 \cdot 3.5 = 12.25
+\]
+
+\[
+||\mathbf{u}|| = 3.5, \quad ||\mathbf{c}|| = \sqrt{(3.5)^2 + (1.64)^2}
+\]
+
+\[
+\cos(\theta) = \frac{12.25}{3.5 \cdot \sqrt{3.5^2 + 1.64^2}}
+\]
+
+\[
+\theta = \arccos\left(\cos(\theta)\right) \approx 34.89^\circ
+\]
+
+\begin{table}[h!]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Segment} & \textbf{Norm} \\ \hline
+\( \| AB \| \) & $3.5$ \\ \hline
+\( \| BC \| \) & Distance between B and C \\ \hline
+\( \| CA \| \) & Distance between C and A \\ \hline
+\end{tabular}
+\caption{Norms of Segments AB, BC, and CA}
+\label{tab:segment_norms}
+\end{table}
 \begin{figure}[h!]
 \centering
 \includegraphics[width=1\textwidth]{fig.png} % Replace with your image file
 \caption{Right triangle with one side of 3.5 cm and the sum of the other side and hypotenuse equal to 5.5 cm.}
-
 \end{figure}
-
 \end{document}
 
