@@ -1,57 +1,67 @@
+import numpy as np
 import matplotlib.pyplot as plt
 
-# Read points from data.txt
-points = []
-try:
-    with open("data.txt", "r") as file:
+# Function to read coordinates from 'data.txt'
+def read_coordinates(filename='data.txt'):
+    coordinates = {}
+    with open(filename, 'r') as file:
         for line in file:
-            line = line.strip()  # Remove whitespace
-            if line:  # Check if the line is not empty
-                # Strip parentheses and split by comma
-                line = line.strip('()')
-                x, y = map(float, line.split(','))
-                points.append((x, y))
-except FileNotFoundError:
-    print("data.txt not found. Please make sure the file is in the correct directory.")
-    exit(1)
-except ValueError as e:
-    print(f"Error processing line '{line}': {e}")
-    exit(1)
+            line = line.strip()  # Remove any leading/trailing whitespace
+            if line:  # Skip empty lines
+                try:
+                    point, coords = line.split(' ', 1)  # Split into point and coordinates
+                    coords = coords.strip('()')  # Remove parentheses
+                    x, y = map(float, coords.split(','))  # Split by ',' and convert to floats
+                    coordinates[point] = np.array([x, y]).reshape(-1, 1)
+                except ValueError as e:
+                    print(f"Error processing line: {line}. Error: {e}")
+    return coordinates
 
-# Unzip the points into x and y coordinates
-if points:  # Only proceed if we have points
-    x_coords, y_coords = zip(*points)
+# Read triangle vertices from 'data.txt'
+vertices = read_coordinates()
 
-    # Create a new figure
-    plt.figure()
+# Check if vertices were read correctly
+if not vertices:
+    print("No vertices found. Exiting.")
+    exit()
 
-    # Plot the triangle by connecting the points
-    plt.plot(x_coords + (x_coords[0],), y_coords + (y_coords[0],), marker='o')  # Close the triangle
+# Extract points A, B, and C from the vertices
+A = vertices['A']
+B = vertices['B']
+C = vertices['C']
 
-    # Define labels for points A, B, and C
-    labels = ['A', 'B', 'C']
-    colors = ['blue', 'green', 'red']  # Different colors for A, B, and C
+# Function to generate the line between two points
+def line_gen(P, Q):
+    return np.hstack((P, Q))
 
-    # Annotate the points with labels and coordinates
-    for (x, y), label, color in zip(points, labels, colors):
-        plt.text(x, y, f'{label} ({x}, {y})', fontsize=9, ha='right', color=color)
+# Generate lines for the triangle sides
+x_AB = line_gen(A, B)
+x_BC = line_gen(B, C)
+x_CA = line_gen(C, A)
 
-    # Set x and y axis limits
-    plt.xlim(-1, 4)  # Adjust as needed
-    plt.ylim(-1, 5)  # Adjust as needed
+# Plotting the triangle sides
+plt.plot(x_AB[0, :], x_AB[1, :], label='AB')
+plt.plot(x_BC[0, :], x_BC[1, :], label='BC')
+plt.plot(x_CA[0, :], x_CA[1, :], label='CA')
 
-    # Set labels and title
-    plt.xlabel('X coordinates (cm)')
-    plt.ylabel('Y coordinates (cm)')
-    plt.title('Right Triangle with Vertices A, B, C from data.txt')
+# Scatter plot of the vertices
+plt.scatter(A[0], A[1], color='red', zorder=5)
+plt.scatter(B[0], B[1], color='red', zorder=5)
+plt.scatter(C[0], C[1], color='red', zorder=5)
 
-    # Add grid for better visibility
-    plt.grid(True)
+# Label the vertices with coordinates
+plt.text(A[0] + 0.1, A[1], f'A {A.flatten()}', fontsize=12, ha='center')
+plt.text(B[0] + 0.1, B[1], f'B {B.flatten()}', fontsize=12, ha='center')
+plt.text(C[0] + 0.1, C[1], f'C {C.flatten()}', fontsize=12, ha='center')
 
-    # Show the plot
-    plt.axhline(0, color='black', linewidth=0.5, ls='--')  # Add x-axis
-    plt.axvline(0, color='black', linewidth=0.5, ls='--')  # Add y-axis
-    plt.show()
-else:
-    print("No valid points to plot.")
+# Set equal scaling and labels
+plt.axis('equal')
+plt.xlabel('x')
+plt.ylabel('y')
+plt.grid(True)
+plt.legend()
+plt.title('Triangle ABC with Coordinates')
+
+# Show the plot
+plt.show()
 
