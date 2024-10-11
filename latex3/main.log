@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  11 OCT 2024 06:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  11 OCT 2024 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1134,13 +1134,13 @@ LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 47.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
 47.
+
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
@@ -1252,6 +1252,8 @@ LaTeX Info: Redefining \ohm on input line 47.
 Package gensymb Info: Using \textohm for \ohm on input line 47.
 Package gensymb Info: Using \textmu for \micro on input line 47.
 Package hyperref Info: Link coloring OFF on input line 47.
+
+(./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1335,21 +1337,14 @@ dist/fonts/enc/dvips/base/8r.enc}
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
-
-
-Package rerunfilecheck Warning: File `main.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `main.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  031FB839E74A7AF4975CE40FA007C5B5;192.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 031FB839E74A7AF4975CE40FA007C5B5;192.
  ) 
 Here is how much of TeX's memory you used:
- 30363 strings out of 474222
- 594006 string characters out of 5748733
- 1969975 words of memory out of 5000000
- 51926 multiletter control sequences out of 15000+600000
+ 30374 strings out of 474222
+ 594126 string characters out of 5748733
+ 1970975 words of memory out of 5000000
+ 51931 multiletter control sequences out of 15000+600000
  617714 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,7n,103p,1172b,551s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1359,10 +1354,10 @@ exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 51431 bytes).
+Output written on main.pdf (1 page, 51751 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 80 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 87 compressed objects within 1 object stream
  39 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 29 words of extra memory for PDF output out of 10000 (max. 10000000)
 
