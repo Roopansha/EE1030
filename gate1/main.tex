@@ -1,0 +1,207 @@
+%iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+%\def\inputGnumericTable{}    
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{float}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\theoremstyle{remark}
+% Marks the beginning of the document
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2021-March Session-03-18-2021-shift-2}
+\author{AI24BTECH11006 - Bugada Roopansha}
+\maketitle
+\begin{enumerate}[start=69]
+\item In a machine shop, pins of $15$ mm diameter are produced at a rate of $1000$ per month, and the same is consumed at a rate of $500$ per month. The production and consumption continue simultaneously till the maximum inventory is reached. Then inventory is allowed to reduce to zero due to consumption. The lot size of production is $1000$. If backlog is not allowed, the maximum inventory level is
+\begin{enumerate}
+    \item $400$
+    \item $500$
+    \item $600$
+    \item $700$
+\end{enumerate}
+\item The net requirements of an item over $5$ consecutive weeks are $50-0-15-20-20$. The inventory carrying cost and ordering cost are Rs $\cdot1$ per item per week and Rs $\cdot100$ per order respectively. The starting inventory is zero. Use the least unit cost technique to develop the plan. The cost of the plan \brak{in Rs} is
+    \begin{enumerate}
+        \item $200$
+        \item $250$
+        \item $255$
+        \item $260$
+    \end{enumerate}
+\section{Common Data for Questions$ 71, 72, 73$}    
+A gear set has a pinion with $20$ teeth and a gear with $40$ teeth. The pinion runs at $30$ rev/s and transmits a power of $20$ kW. The teeth are on the $20^\circ$ full-depth system and have a module of $5$ mm. The length of the line of action is $19$ mm.
+    \item The center distance for the above gear set in mm is
+    \begin{enumerate}
+        \item $140$
+        \item $150$
+        \item $160$
+        \item $170$
+    \end{enumerate}
+    
+    \item The contact ratio of the contacting tooth is
+    \begin{enumerate}
+        \item $1.21$
+        \item $1.25$
+        \item $1.29$
+        \item $1.33$
+    \end{enumerate}
+    
+    \item The resultant force on the contacting gear tooth in N is
+    \begin{enumerate}
+        \item $77.23$
+        \item $212.20$
+        \item $225.80$
+        \item $289.43$
+    \end{enumerate}
+\section{Common Data for Questions $74,75$}
+A thermodynamic cycle with an ideal gas as working fluid is shown below.
+\includegraphics[width=0.5\textwidth]{Screenshot 2024-10-23 172124.png}
+\item The above cycle is represented on T-S plane by
+\begin{enumerate}
+    \item \includegraphics[width=0.3\textwidth]{Screenshot 2024-10-23 172402.png}
+     \item \includegraphics[width=0.3\textwidth]{Screenshot 2024-10-23 172450.png}
+      \item \includegraphics[width=0.3\textwidth]{Screenshot 2024-10-23 172454.png}
+       \item \includegraphics[width=0.3\textwidth]{Screenshot 2024-10-23 172502.png}
+\end{enumerate}
+  \item If the specific heats of the working fluid are constant and the value of specific heat ratio $y$ is $1.4$, the thermal efficiency $\brak{\%}$ of the cycle is
+    \begin{enumerate}
+        \item $21$
+        \item $40.9$
+        \item $42.6$
+        \item $59.7$
+    \end{enumerate} 
+\section{Statement for linked questions $76,77 $}
+Consider a steady incompressible flow through a channel as shown below.
+\includegraphics[width=0.5\textwidth]{Screenshot 2024-10-23 173418.png}
+The velocity profile is uniform with a value of $u_o$ at the inlet section A. The velocity profile at section B downstream is
+$$
+u = 
+\begin{cases} 
+V_m\frac{y}{\delta} & \text{for}  0 \leq y \leq \delta \\ 
+V_m & \text{for } \delta \leq y \leq H-\delta \\ 
+V_m\frac{H-y}{\delta} & \text{for } H-\delta \leq y \leq H 
+\end{cases}
+$$
+    \item The ratio $\frac{V_m}{u_o}$ is
+    \begin{enumerate}
+        \item $\frac{1}{1 - 2\brak{\frac{\delta}{H}}}$
+        \item $1$
+        \item $\frac{1}{1 - \brak{\frac{\delta}{H}}}$
+        \item $\frac{1}{1 + \brak{\frac{\delta}{H}}}$
+    \end{enumerate}
+    
+    \item The ratio $\frac{P_A - P_B}{\frac{1}{2}\delta{u_o}^2}$ where $P_A$ and $P_B$ are the pressures at section A and B, respectively, and $\delta$ is the density of the fluid is
+    \begin{enumerate}
+        \item $ \frac{1}{\brak{1-\brak{\frac{\delta}{H}}}^2} -1$
+        \item $ \frac{1}{\brak{1-\brak{\frac{\delta}{H}}}^2}$
+        \item $ \frac{1}{\brak{1-\brak{\frac{2\delta}{H}}}^2} -1$
+        \item $ \frac{1}{1+\brak{\frac{\delta}{H}}}$
+    \end{enumerate}
+\section{Statment for linked question $78 ,79$}
+Consider steady one-dimensional heat flow in a plate of $20$ mm thickness with a uniform heat generation of $80$ MW/m$^3$. The left and right faces are kept at constant temperatures of $160^\circ C$ and $120^\circ C$ respectively. The plate has a constant thermal conductivity of $200$ W/mK. 
+
+\item The location of maximum temperature within the plate from its left face is
+\begin{enumerate}
+    \item $15$ mm
+    \item $10$ mm
+    \item $5$ mm
+    \item $0$ mm
+\end{enumerate}
+    \item The maximum temperature within the plate in $^\circ C$ is
+    \begin{enumerate}
+        \item $160$
+        \item $165$
+        \item $200$
+        \item $250$
+    \end{enumerate}
+\section{Statment for linked question $80,81$}
+A machine frame shown in the figure below is subjected to a horizontal force of 600 N parallel to z-direction.
+\includegraphics[width=0.4\textwidth]{Screenshot 2024-10-23 180507.png}
+\item The normal and shear stresses in MPa at the point P are, respectively,
+\begin{enumerate}
+    \item $67.9$ and $56.6$
+    \item $56.6$ and $67.9$
+    \item $67.9$ and $0.0$
+    \item $0.0$ and $56.6$
+\end{enumerate}
+\item  The maximum principal stress in MPa and the orientation of the corresponding principal plane in degrees are respectively
+    \begin{enumerate}
+       \item  $-32.0$ and $-29.52 $
+       \item  $100.0$ and $60.48 $
+       \item  $32.0$ and $60.48$ 
+       \item  $100.0$ and $-29.52$
+    \end{enumerate}
+\section{Statement for linked questions$82 , 83$}
+  A quick return mechanism is shown below. The crank OS is driven at $2$ rev/s in a counter-clockwise direction.
+ \includegraphics[width=0.4\textwidth]{Screenshot 2024-10-23 182652.png}
+ \item If the quick return ratio is $1:2$, then the length of the crank in mm is
+    \begin{enumerate}
+       \item  $250$
+       \item  $250 \sqrt{3}$
+        \item $500$
+        \item $500 \sqrt{3}$
+    \end{enumerate}
+   \item The angular speed of PQ in rev/s when the block R attains maximum speed during the forward stroke \brak{stroke with slower speed} is
+    \begin{enumerate}
+       \item  $\frac{1}{3}$
+       \item  $\frac{2}{3}$
+       \item  $2$
+       \item  $3$
+    \end{enumerate}
+    \section{Statement for linked questions$84 , 85$}
+ A low carbon steel bar of $147$ mm diameter with a length of $630$ mm is being turned with uncoated carbide insert. The observed tool lives are $24$ min and $12$ min for cutting velocities of $90$ m/min and $120$ m/min respectively. The feed and depth of cut are $0.2$ mm/rev and $2$ mm respectively. Use the unmachined diameter to calculate the cutting velocity.
+ \item When tool life is $20$ min, the cutting velocity in m/min is
+    \begin{enumerate}
+       \item  $87$ 
+       \item  $97$ 
+        \item $107$ 
+        \item $114$
+    \end{enumerate}
+
+    \item Neglect over-travel or approach of the tool. When tool life is $20$ min, the machining time in min for a single pass is
+    \begin{enumerate}
+       \item  $5$
+        \item $10$ 
+        \item $15$ 
+        \item $20$
+    \end{enumerate}
+\end{enumerate}
+\end{document}
+
