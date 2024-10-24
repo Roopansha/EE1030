@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  24 OCT 2024 04:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  24 OCT 2024 18:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1130,91 +1130,91 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@lemma=\count350
 \c@example=\count351
 LaTeX Font Info:    Trying to load font information for OT1+txr on input line 4
-7.
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ot1txr.fd
 File: ot1txr.fd 2000/12/15 v3.1
 ) (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 47.
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 48.
 LaTeX Font Info:    Trying to load font information for OML+txmi on input line 
-47.
+48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxmi.fd
 File: omltxmi.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 48.
 LaTeX Font Info:    Trying to load font information for OMS+txsy on input line 
-47.
+48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omstxsy.fd
 File: omstxsy.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 48.
 LaTeX Font Info:    Trying to load font information for OMX+txex on input line 
-47.
+48.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omxtxex.fd
 File: omxtxex.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 48.
 LaTeX Font Info:    Trying to load font information for U+txexa on input line 4
-7.
+8.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxexa.fd
 File: utxexa.fd 2000/12/15 v3.1
 )
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <6> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <8> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <9> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <10> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <12> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <14> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <20> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <22> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/n' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/n' tried instead on input line 48.
 LaTeX Font Info:    Font shape `OT1/txr/b/it' in size <24> not available
-(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 47.
+(Font)              Font shape `OT1/txr/bx/it' tried instead on input line 48.
 
 -- Lines per column: 50 (exact).
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
@@ -1242,100 +1242,77 @@ e
 \c@lstlisting=\count358
 \symgns@font=\mathgroup10
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 47.
-Package gensymb Info: Math companion symbols declared on input line 47.
-LaTeX Info: Redefining \degree on input line 47.
-LaTeX Info: Redefining \celsius on input line 47.
+(Font)                  TS1/txr/m/n --> TS1/txr/b/n on input line 48.
+Package gensymb Info: Math companion symbols declared on input line 48.
+LaTeX Info: Redefining \degree on input line 48.
+LaTeX Info: Redefining \celsius on input line 48.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 47.
-LaTeX Info: Redefining \ohm on input line 47.
-Package gensymb Info: Using \textohm for \ohm on input line 47.
-Package gensymb Info: Using \textmu for \micro on input line 47.
-Package hyperref Info: Link coloring OFF on input line 47.
+erthousand on input line 48.
+LaTeX Info: Redefining \ohm on input line 48.
+Package gensymb Info: Using \textohm for \ohm on input line 48.
+Package gensymb Info: Using \textmu for \micro on input line 48.
+Package hyperref Info: Link coloring OFF on input line 48.
 
 (./main.out) (./main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Trying to load font information for U+txsya on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsya.fd
 File: utxsya.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyb on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyb.fd
 File: utxsyb.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txmia on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxmia.fd
 File: utxmia.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for U+txsyc on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/utxsyc.fd
 File: utxsyc.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
-4.
+5.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 68.
+(hyperref)                removing `math shift' on input line 69.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 94.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 93.
+(hyperref)                removing `math shift' on input line 94.
 
-<Screenshot 2024-10-23 172124.png, id=35, 295.85532pt x 202.50656pt>
-File: Screenshot 2024-10-23 172124.png Graphic file (type png)
-<use Screenshot 2024-10-23 172124.png>
-Package pdftex.def Info: Screenshot 2024-10-23 172124.png  used on input line 9
-5.
-(pdftex.def)             Requested size: 258.0pt x 176.5995pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 94--96
+Underfull \hbox (badness 10000) in paragraph at lines 95--113
 []\OT1/txr/m/n/12 A ther-mo-dy-namic cy-cle with an ideal
  []
 
 
-Underfull \hbox (badness 7081) in paragraph at lines 94--96
+Underfull \hbox (badness 7081) in paragraph at lines 95--113
 \OT1/txr/m/n/12 gas as work-ing fluid is shown be-low.
  []
 
-
-Overfull \hbox (30.0pt too wide) in paragraph at lines 94--96
-[] 
- []
-
-<Screenshot 2024-10-23 172402.png, id=37, 147.55125pt x 120.45pt>
-File: Screenshot 2024-10-23 172402.png Graphic file (type png)
-<use Screenshot 2024-10-23 172402.png>
-Package pdftex.def Info: Screenshot 2024-10-23 172402.png  used on input line 9
-8.
-(pdftex.def)             Requested size: 154.80157pt x 126.37144pt.
-<Screenshot 2024-10-23 172450.png, id=38, 143.03438pt x 115.18031pt>
-File: Screenshot 2024-10-23 172450.png Graphic file (type png)
-<use Screenshot 2024-10-23 172450.png>
-Package pdftex.def Info: Screenshot 2024-10-23 172450.png  used on input line 9
-9.
-(pdftex.def)             Requested size: 154.80157pt x 124.65823pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1343,127 +1320,110 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 -dist/fonts/enc/dvips/base/8r.enc}
 
 
- <./Screenshot 2024-10-23 172124.png> <./Screenshot 2024-10-23 172402.png>]
-<Screenshot 2024-10-23 172454.png, id=79, 155.07938pt x 115.18031pt>
-File: Screenshot 2024-10-23 172454.png Graphic file (type png)
-<use Screenshot 2024-10-23 172454.png>
-Package pdftex.def Info: Screenshot 2024-10-23 172454.png  used on input line 1
-00.
-(pdftex.def)             Requested size: 154.80157pt x 114.97437pt.
-<Screenshot 2024-10-23 172502.png, id=80, 142.28156pt x 118.19156pt>
-File: Screenshot 2024-10-23 172502.png Graphic file (type png)
-<use Screenshot 2024-10-23 172502.png>
-Package pdftex.def Info: Screenshot 2024-10-23 172502.png  used on input line 1
-01.
-(pdftex.def)             Requested size: 154.80157pt x 128.60442pt.
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 190.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 110.
+(hyperref)                removing `math shift' on input line 190.
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 110.
-
-<Screenshot 2024-10-23 173418.png, id=81, 363.60844pt x 167.12437pt>
-File: Screenshot 2024-10-23 173418.png Graphic file (type png)
-<use Screenshot 2024-10-23 173418.png>
-Package pdftex.def Info: Screenshot 2024-10-23 173418.png  used on input line 1
-12.
-(pdftex.def)             Requested size: 258.0pt x 118.5877pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 191--255
 []\OT1/txr/m/n/12 Consider a steady in-com-press-ible flow
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--114
+Underfull \hbox (badness 10000) in paragraph at lines 191--255
 \OT1/txr/m/n/12 through a chan-nel as shown be-low.
  []
 
 
-Overfull \hbox (30.0pt too wide) in paragraph at lines 111--114
-[]
+Overfull \hbox (30.07944pt too wide) in paragraph at lines 191--255
+[] 
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 137.
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 137.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 280.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 154.
+(hyperref)                removing `math shift' on input line 280.
 
-<Screenshot 2024-10-23 180507.png, id=82, 395.97937pt x 254.45062pt>
-File: Screenshot 2024-10-23 180507.png Graphic file (type png)
-<use Screenshot 2024-10-23 180507.png>
-Package pdftex.def Info: Screenshot 2024-10-23 180507.png  used on input line 1
-56.
-(pdftex.def)             Requested size: 206.39685pt x 132.62956pt.
+[2]
 
-Underfull \hbox (badness 6078) in paragraph at lines 155--157
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 297.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 297.
+
+
+Underfull \hbox (badness 6078) in paragraph at lines 298--336
 []\OT1/txr/m/n/12 A ma-chine frame shown in the fig-ure
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 298--336
 \OT1/txr/m/n/12 be-low is sub-jected to a hor-i-zon-tal
  []
 
 
-Underfull \hbox (badness 5533) in paragraph at lines 155--157
+Underfull \hbox (badness 5533) in paragraph at lines 298--336
 \OT1/txr/m/n/12 force of 600 N par-al-lel to z-direction.
  []
 
-[2 <./Screenshot 2024-10-23 172450.png> <./Screenshot 2024-10-23 172454.png> <.
-/Screenshot 2024-10-23 172502.png> <./Screenshot 2024-10-23 173418.png>]
+
+Overfull \hbox (22.13023pt too wide) in paragraph at lines 298--336
+[] 
+ []
+
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
+(hyperref)                removing `math shift' on input line 350.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 171.
+(hyperref)                removing `math shift' on input line 350.
 
-<Screenshot 2024-10-23 182652.png, id=120, 325.215pt x 254.45062pt>
-File: Screenshot 2024-10-23 182652.png Graphic file (type png)
-<use Screenshot 2024-10-23 182652.png>
-Package pdftex.def Info: Screenshot 2024-10-23 182652.png  used on input line 1
-73.
-(pdftex.def)             Requested size: 206.39685pt x 161.48892pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 351--384
 []\OT1/txr/m/n/12 A quick re-turn mech-a-nism is shown
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 172--174
+Underfull \hbox (badness 7796) in paragraph at lines 351--384
 \OT1/txr/m/n/12 be-low. The crank OS is driven at $2$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--174
+Underfull \hbox (badness 10000) in paragraph at lines 351--384
 \OT1/txr/m/n/12 rev/s in a counter-clockwise di-rec-tion.
  []
 
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 188.
+Overfull \hbox (57.32742pt too wide) in paragraph at lines 351--384
+[] 
+ []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 188.
+(hyperref)                removing `math shift' on input line 398.
 
-[3 <./Screenshot 2024-10-23 180507.png> <./Screenshot 2024-10-23 182652.png>]
-(./main.aux)
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 398.
+
+[3] [4
+
+] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1472,23 +1432,23 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: B9FB532490EC9C385829D814A871F358;1638.
  ) 
 Here is how much of TeX's memory you used:
- 30472 strings out of 474222
- 596455 string characters out of 5748733
- 1943975 words of memory out of 5000000
- 51975 multiletter control sequences out of 15000+600000
+ 30658 strings out of 474222
+ 599152 string characters out of 5748733
+ 1952975 words of memory out of 5000000
+ 52160 multiletter control sequences out of 15000+600000
  617714 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,9n,103p,1172b,713s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,9n,103p,1196b,853s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 368889 bytes).
+Output written on main.pdf (4 pages, 61090 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
- 96 named destinations out of 1000 (max. 500000)
- 109 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 199 PDF objects out of 1000 (max. 8388607)
+ 177 compressed objects within 2 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 69 words of extra memory for PDF output out of 10000 (max. 10000000)
 
