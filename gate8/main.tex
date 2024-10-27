@@ -39,7 +39,39 @@
 \begin{enumerate}[start=40]
  
     \item A structural member of rectangular cross-section $10 \text{ mm} \times 6 \text{ mm}$ and length $1 \text{ m}$ is made of steel $\brak{\text{Young's modulus is } 200 \text{ GPa}}$ $\brak{\text{coefficient of thermal expansion is } 12 \times 10^{-6}/^{\circ}\text{C}}$. It is rigidly fixed at both ends and then subjected to a gradual increase in temperature. Ignoring the three-dimensional effects, the structural member will buckle if the temperature is increased by $\Delta T$ \degree C, which is
-    \begin{enumerate}
+	   \begin{tikzpicture}
+    % Draw the main beam
+    \draw[thick] (0,0) -- (5,0);
+    \draw[thick] (0,-0.2) -- (5,-0.2);
+    
+    % Add end supports
+    \draw (-0.2,-0.4) rectangle (0,0.2);
+    \draw (5,-0.4) rectangle (5.2,0.2);
+    
+    % Add dimension line and label
+    \draw[<->] (0,-0.6) -- (5,-0.6);
+    \node at (2.5,-0.8) {1 m};
+
+    % Cross-section view
+    \draw[thick] (6,0.2) rectangle (7,0.8);
+    \fill[gray!20] (6,0.2) rectangle (7,0.8);
+    
+    % Cross-section labels
+    \draw[<->] (7.1,0.2) -- (7.1,0.8);
+    \node at (7.5,0.5) {6 mm};
+    \draw[<->] (6,1) -- (7,1);
+    \node at (6.5,1.2) {10 mm};
+    
+    % Add Cross-section text
+    \node[anchor=west] at (5.5,0) {Cross-section};
+
+\end{tikzpicture}
+
+
+
+
+
+	    \begin{enumerate}
         \item $19.74$
         \item $9.87$
         \item $78.96$
@@ -56,6 +88,33 @@
     \end{enumerate}
 
     \item A cantilevered beam is subjected to a parabolic distribution of shear traction at the right edge while the top and bottom surfaces are traction-free. To solve this problem, the following Airy's stress function is proposed: $\phi = C_1 xy + C_2 xy^3 + C_3 x^2 y^2 + C_4 x^3 y$. This is an admissible Airy's function that would satisfy the bi-harmonic equation as well as the boundary conditions if and only if
+\begin{tikzpicture}
+    % Draw the beam
+    \fill[gray!20] (0,0) rectangle (6,1);
+    \draw[thick] (0,0) rectangle (6,1);
+    
+    % Add end supports
+    \draw (-0.2,-0.2) rectangle (0,1.2);
+    \draw (6,-0.2) rectangle (6.2,1.2);
+    
+    % Dimension line for height
+    \draw[<->] (6.2,0) -- (6.2,1);
+    \node at (6.5,0.5) {$2d$};
+    
+    % Label for x-axis
+    \node at (5.5,0.75) {$x$};
+    \draw[->] (5.3,0.75) -- (5,0.75);
+    
+    % Label for y-axis
+    \node at (6.8,1.1) {$y$};
+    \draw[->] (6.6,0.8) -- (6.6,1.1);
+    
+% Add equation text
+    \node[anchor=west] at (6.1,0.1) {$\tau_{xy} = \lambda \left[ 1 - \left( \frac{y}{d} \right)^2 \right]$};
+\end{tikzpicture}
+
+
+
     \begin{enumerate}
         \item $C_1 = 0$, $C_2 = \lambda$, $C_3 = 0$, $C_4 = \frac{\lambda}{3d^2}$
         \item $C_1 =\lambda$, $C_2 = \frac{\lambda}{3d^2}$, $C_3 = 0$, $C_4 = 0$
@@ -64,7 +123,31 @@
     \end{enumerate}
 
     \item A $1 \text{ kg}$ mass is hanging from a spring with stiffness $500 \text{ N/m}$ attached to a massless, symmetric beam of length $0.6 \text{ m}$, moment of inertia about the bending axis $I = 8.33 \times 10^{-10} \text{ m}^4$, and Young's modulus $E = 210 \text{ GPa}$ as shown in the figure. The fundamental natural frequency $\brak{\frac{rad}{s}}$ of the system is
-    \begin{enumerate}
+    \begin{tikzpicture}
+    % Draw the main beam
+    \draw[thick] (0,0) -- (3,0);
+    \draw[thick] (0,-0.2) -- (3,-0.2);
+    
+    % Add end support
+    \draw (-0.2,-0.4) rectangle (0,0.2);
+    
+    % Add dimension line and label
+    \draw[<->] (0,-0.6) -- (3,-0.6);
+    \node at (1.5,-0.8) {0.6 m};
+    
+    % Draw spring
+    \draw (3,0) -- (3, -1.2);
+    \node[anchor=west] at (3.2, -0.6) {$k=500\,\frac{N}{m}$};
+    
+    % Draw mass
+    \fill[gray!20] (2.8, -1.6) rectangle (3.2, -1.2);
+    \draw[thick] (2.8, -1.6) rectangle (3.2, -1.2);
+    \node[anchor=north] at (3, -1.7) {1 kg};
+    
+    \end{tikzpicture}
+
+
+	    \begin{enumerate}
         \item $3.24$
         \item $20.36$
         \item $22.36$
@@ -79,7 +162,7 @@
         \item $3.02$
     \end{enumerate}
 
-    \item A cruise missile with an \textbf{ideal} ramjet engine is flying at Mach $4.0$ at an altitude where the ambient temperature is $100 \text{ K}$. Consider the ratio of specific heats $\gamma = 1.4$ and specific gas constant $R = 287 \text{ J/kg K}$. If the stagnation temperature in the combustion chamber is equal to $2310 \text{ K}$, the speed of the exhaust gases  is $\cdots$
+    \item A cruise missile with an ideal ramjet engine is flying at Mach $4.0$ at an altitude where the ambient temperature is $100 \text{ K}$. Consider the ratio of specific heats $\gamma = 1.4$ and specific gas constant $R = 287 \text{ J/kg K}$. If the stagnation temperature in the combustion chamber is equal to $2310 \text{ K}$, the speed of the exhaust gases  is $\cdots$
 
     \item A gas turbine engine is operating under the following conditions:
     \begin{itemize}
@@ -98,7 +181,7 @@
 
     \item A stationary two-stage rocket with an initial mass of $16000 \text{ kg}$, carrying a payload of $1000 \text{ kg}$, is fired in a vertical trajectory from the surface of the earth. Both stages of the rocket have the same specific impulse, $I_p$, of $300 \text{ s}$ and the same structural coefficient of $0.14$. The acceleration due to gravity is $9.8\frac{ m}{s^2}$. Neglecting drag and gravity effects and considering both stages with the same payload ratio, the terminal velocity attained by the payload in $\text{m/s}$ is
 
-    \item An aircraft is flying at Mach $3.0$ at an altitude where the ambient pressure and temperature are $50 \text{ kPa}$ and $200 \text{ K}$, respectively. If the converging-diverging diffuser of the engine $\brak{\text{considered isentropic with a ratio of specific heats}, \gamma = 1.4}$ and $\brak{\text{specific gas constant} R = 287 \text{ J/kg K}}$ has a throat area of $0.05 \text{ m}^2$, the mass flow rate through the engine in $\frac{kg}{s}$ is
+    \item An aircraft is flying at Mach $3.0$ at an altitude where the ambient pressure and temperature are $50 \text{ kPa}$ and $200 \text{ K}$, respectively. If the converging-diverging diffuser of the engine $\brak{\text{considered isentropic with a ratio of specific heats}, \gamma = 1.4}$ and $\brak{\text{specific gas constant} R = 287 \frac{ J}{kg K}}$ has a throat area of $0.05 \text{ m}^2$, the mass flow rate through the engine in $\frac{kg}{s}$ is
     \begin{enumerate}
         \item $197$
         \item $232$
