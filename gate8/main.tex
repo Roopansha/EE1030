@@ -1,0 +1,139 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+% Standard Packages
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage{tkz-euclide} 
+\usepackage{gvv} 
+\usepackage{longtable} 
+\usepackage{calc} 
+\usepackage{multirow}
+\usepackage{hhline} 
+\usepackage{tikz}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{float}
+
+\renewcommand{\thetable}{\theenumi}
+\theoremstyle{remark}
+
+% Begin Document
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2014-AE-'40-52'}
+\author{AI24BTECH11006 - Bugada Roopansha}
+\maketitle
+
+\begin{enumerate}[start=40]
+ 
+    \item A structural member of rectangular cross-section $10 \text{ mm} \times 6 \text{ mm}$ and length $1 \text{ m}$ is made of steel $\brak{\text{Young's modulus is } 200 \text{ GPa}}$ $\brak{\text{coefficient of thermal expansion is } 12 \times 10^{-6}/^{\circ}\text{C}}$. It is rigidly fixed at both ends and then subjected to a gradual increase in temperature. Ignoring the three-dimensional effects, the structural member will buckle if the temperature is increased by $\Delta T$ \degree C, which is
+    \begin{enumerate}
+        \item $19.74$
+        \item $9.87$
+        \item $78.96$
+        \item $39.48$
+    \end{enumerate}
+
+
+    \item A gas cylinder \brak{\text{closed thin-walled cylindrical pressure vessel}} of diameter $30 \text{ cm}$ and wall thickness $1 \text{ mm}$ is subjected to a design maximum internal pressure of $5 \text{ bar}$ $\brak{0.5 \text{ MPa}}$. The material used for manufacturing this cylinder has a failure stress of $260 \text{ MPa}$. Assuming von Mises failure criterion, the factor of safety \brak{\text{with respect to maximum allowable stress}} for this cylinder is
+    \begin{enumerate}
+        \item $2.8$
+        \item $2.0$
+        \item $6.9$
+        \item $4.0$
+    \end{enumerate}
+
+    \item A cantilevered beam is subjected to a parabolic distribution of shear traction at the right edge while the top and bottom surfaces are traction-free. To solve this problem, the following Airy's stress function is proposed: $\phi = C_1 xy + C_2 xy^3 + C_3 x^2 y^2 + C_4 x^3 y$. This is an admissible Airy's function that would satisfy the bi-harmonic equation as well as the boundary conditions if and only if
+    \begin{enumerate}
+        \item $C_1 = 0$, $C_2 = \lambda$, $C_3 = 0$, $C_4 = \frac{\lambda}{3d^2}$
+        \item $C_1 =\lambda$, $C_2 = \frac{\lambda}{3d^2}$, $C_3 = 0$, $C_4 = 0$
+        \item $C_1 = 0$, $C_2 = 0$, $C_3 = \lambda$, $C_4 = -\frac{\lambda}{3d^2}$
+        \item $C_1 = \lambda$, $C_2 = -\frac{\lambda}{3d^2}$, $C_3 = 0$, $C_4 = 0$
+    \end{enumerate}
+
+    \item A $1 \text{ kg}$ mass is hanging from a spring with stiffness $500 \text{ N/m}$ attached to a massless, symmetric beam of length $0.6 \text{ m}$, moment of inertia about the bending axis $I = 8.33 \times 10^{-10} \text{ m}^4$, and Young's modulus $E = 210 \text{ GPa}$ as shown in the figure. The fundamental natural frequency $\brak{\frac{rad}{s}}$ of the system is
+    \begin{enumerate}
+        \item $3.24$
+        \item $20.36$
+        \item $22.36$
+        \item $3.56$
+    \end{enumerate}
+
+    \item A single degree of freedom system is vibrating with an initial \brak{\text{first cycle}} amplitude of $5 \text{ cm}$. The viscous damping factor associated with the vibrating system is $2\%$. The vibration amplitude of the fifth cycle \brak{\text{in cm}} is
+    \begin{enumerate}
+        \item $1.65$
+        \item $4.41$
+        \item $2.67$
+        \item $3.02$
+    \end{enumerate}
+
+    \item A cruise missile with an \textbf{ideal} ramjet engine is flying at Mach $4.0$ at an altitude where the ambient temperature is $100 \text{ K}$. Consider the ratio of specific heats $\gamma = 1.4$ and specific gas constant $R = 287 \text{ J/kg K}$. If the stagnation temperature in the combustion chamber is equal to $2310 \text{ K}$, the speed of the exhaust gases  is $\cdots$
+
+    \item A gas turbine engine is operating under the following conditions:
+    \begin{itemize}
+        \item Stagnation temperature at turbine inlet: $1350 \text{ K}$
+        \item Stagnation pressure at turbine inlet: $10 \text{ bar}$
+        \item Static temperature at turbine exit: $800 \text{ K}$
+        \item Velocity at turbine exit: $200  \frac{m}{s}$
+        \item Total-to-total efficiency of turbine: $0.96$
+        \item $\gamma$ \brak{\text{ratio of specific heats}}: $1.33$
+        \item $C_p$ \brak{\text{specific heat at constant pressure}}: $1.147 \frac{ kJ}{kg K}$
+    \end{itemize}
+    
+    The stagnation pressure \brak{\text{in bar}} in the nozzle \brak{\text{considering an isentropic nozzle}} is equal to $\dots$
+
+    \item Air at a stagnation temperature of $300 \text{ K}$ $\brak{\text{ratio of specific heats}, \gamma = 1.4 }$and $\brak{\text{specific gas constant} R = 287 \frac {J}{kg K}}$ enters the impeller of a centrifugal compressor in axial direction. The stagnation pressure ratio between the diffuser outlet and impeller inlet is $4.0$. The impeller blade radius is $0.3 \text{ m}$ and it is rotating at $15000 \text{ rev}{min}$. If the slip factor $\sigma$ ratio of tangential component of air velocity   at the blade tip to the blade tip speed is $0.88$, the overall efficiency \brak{\text{total-to-total}} of the compressor \brak{in \%} is
+
+    \item A stationary two-stage rocket with an initial mass of $16000 \text{ kg}$, carrying a payload of $1000 \text{ kg}$, is fired in a vertical trajectory from the surface of the earth. Both stages of the rocket have the same specific impulse, $I_p$, of $300 \text{ s}$ and the same structural coefficient of $0.14$. The acceleration due to gravity is $9.8\frac{ m}{s^2}$. Neglecting drag and gravity effects and considering both stages with the same payload ratio, the terminal velocity attained by the payload in $\text{m/s}$ is
+
+    \item An aircraft is flying at Mach $3.0$ at an altitude where the ambient pressure and temperature are $50 \text{ kPa}$ and $200 \text{ K}$, respectively. If the converging-diverging diffuser of the engine $\brak{\text{considered isentropic with a ratio of specific heats}, \gamma = 1.4}$ and $\brak{\text{specific gas constant} R = 287 \text{ J/kg K}}$ has a throat area of $0.05 \text{ m}^2$, the mass flow rate through the engine in $\frac{kg}{s}$ is
+    \begin{enumerate}
+        \item $197$
+        \item $232$
+        \item $790$
+        \item $157$
+    \end{enumerate}
+
+    \item A cryogenic rocket has a specific impulse of $455 \text{ s}$ and a characteristic velocity of $2386 \frac{ m}{s}$. The value of the thrust coefficient for this rocket is
+    \begin{enumerate}
+        \item $1.78$
+        \item $1.73$
+        \item $1.87$
+        \item $1.95$
+    \end{enumerate}
+
+    \item For a given airplane with a given wing loading executing a turn in the vertical plane, under what conditions will the turn radius be minimum and the turn rate be maximum?
+    \begin{enumerate}
+        \item Highest possible $C_L$ and lowest possible load factor
+        \item Lowest possible $C_L$ and lowest possible load factor
+        \item Lowest possible $C_L$ and highest possible load factor
+        \item Highest possible $C_L$ and highest possible load factor
+    \end{enumerate}
+
+    \item Lift-off distance for a given aircraft of weight $W$ is $S_{\text{LO}}$. If the take-off weight is reduced by $10\%$, then the magnitude of percentage change in the lift-off distance \brak{\text{assuming all other parameters to remain constant}} is
+
+
+ 
+
+
+
+
+
+
+ 
+\end{enumerate}
+
+\end{document}
+
