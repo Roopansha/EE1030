@@ -1,0 +1,183 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+% Standard Packages
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage{tkz-euclide} 
+\usepackage{gvv} 
+\usepackage{longtable} 
+\usepackage{calc} 
+\usepackage{multirow}
+\usepackage{hhline} 
+\usepackage{tikz}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{float}
+
+\renewcommand{\thetable}{\theenumi}
+\theoremstyle{remark}
+
+% Begin Document
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2013-MA-'40-52'}
+\author{AI24BTECH11006 - Bugada Roopansha}
+\maketitle
+
+\begin{enumerate}[start=40]
+ 
+    \item Let $X$ be an arbitrary random variable that takes values in $\sbrak{0, 1, \dots, 10}$. The minimum and maximum possible values of the variance of $X$ are
+    \begin{enumerate}
+        \item $0$ and $30$
+        \item $1$ and $30$
+        \item $0$ and $25$
+        \item $1$ and $25$
+    \end{enumerate}
+
+    \item Let $M$ be the space of all $4 \times 3$ matrices with entries in the finite field of three elements. Then the number of matrices of rank three in $M$ is
+    \begin{enumerate}
+        \item $\brak{3^4 - 3} \brak{3^{4} - 3^{2}} \brak{3^{4} - 3^{3}}$
+        \item $\brak{3^4 - 1} \brak{3^4 - 2} \brak{3^4 - 3}$
+        \item $\brak{3^4 -1} \brak{3^4 - 3} \brak{3^{4} - 3^{2}}$
+        \item $3^4\brak{3^4 - 1} \brak{3^4 - 2}$
+    \end{enumerate}
+
+    \item Let $V$ be a vector space of dimension $m \geq 2$. Let $T: V \rightarrow V$ be a linear transformation such that $T^{n+1} = 0$ and $T^{n} \neq 0$ for some $n \geq 1$. Then which of the following is necessarily \textbf{TRUE}?
+    \begin{enumerate}
+        \item $\text{Rank} \brak{T^{n}} \leq \text{Nullity} \brak{T^{n}}$
+        \item $\text{trace} \brak{T} \neq 0$
+        \item $T$ is diagonalizable
+        \item $n = m$
+    \end{enumerate}
+
+    \item Let $X$ be a convex region in the plane bounded by straight lines. Let $X$ have $7$ vertices. Suppose $f \brak{x, y} = ax + by + c$ has maximum value $M$ and minimum value $N$ on $X$ and $N \textless M$. Let $S = {P: P \text{ is a vertex of } X \text{ and } N < f \brak{P} < M}$. If $S$ has $n$ elements, then which of the following statements is \textbf{TRUE}?
+    \begin{enumerate}
+        \item $n$ cannot be $5$
+        \item $n$ can be $2$
+        \item $n$ cannot be $3$
+        \item $n$ can be $4$
+    \end{enumerate}
+
+    \item Which of the following statements are \textbf{TRUE}?
+    
+    $P$: If $f \in L^1 \brak{\mathbb{R}}$, then $f$ is continuous. \\
+    $Q$: If $f \in L^1 \brak{\mathbb{R}}$ and $\lim_{\abs{x} \to \infty} f \brak{x}$ exists, then the limit is zero. \\
+    $R$: If $f \in L^1 \brak{\mathbb{R}}$, then $f$ is bounded. \\
+    $S$: If $f \in L^{1} \brak{\mathbb{R}}$ is uniformly continuous, then $\lim_{\abs{x} \to \infty} f \brak{x}$ exists and equals zero.
+    
+    \begin{enumerate}
+        \item $Q$ and $S$ only
+        \item $P$ and $R$ only
+        \item $P$ and $Q$ only
+        \item $R$ and $S$ only
+    \end{enumerate}
+
+    \item Let $u$ be a real valued harmonic function on $\mathbb{C}$. Let $g: \mathbb{R}^{2} \rightarrow \mathbb{R}$ be defined by
+    \[
+    g \brak{x, y} = \int_{0}^{2 \pi} u \brak{e^{i \theta} \brak{x + iy}} \sin \theta \, d \theta.
+    \]
+    Which of the following statements is \textbf{TRUE}?
+    \begin{enumerate}
+        \item $g$ is a harmonic polynomial
+        \item $g$ is a polynomial but not harmonic
+        \item $g$ is harmonic but not a polynomial
+        \item $g$ is neither harmonic nor a polynomial
+    \end{enumerate}
+
+    \item Let $S = {z \in \mathbb{C} : \abs{z} = 1}$ with the induced topology from $\mathbb{C}$ and let $f: \sbrak{0, 2} \rightarrow S$ be defined as $f \brak{t} = e^{2 \pi i t}$. Then, which of the following is \textbf{TRUE}?
+    \begin{enumerate}
+        \item $K$ is closed in $\sbrak{0, 2} \Rightarrow f \brak{K}$ is closed in $S$
+        \item $U$ is open in $\sbrak{0, 2} \Rightarrow f \brak{U}$ is open in $S$
+        \item $f \brak{X}$ is closed in $S \Rightarrow X$ is closed in $\sbrak{0, 2}$
+        \item $f \brak{Y}$ is open in $S \Rightarrow Y$ is open in $\sbrak{0, 2}$
+    \end{enumerate}
+
+    \item Assume that all the zeros of the polynomial $a_n x^n + a_{n-1} x^{n-1} + \dots + a_1 x + a_0$ have negative real parts. If $u \brak{t}$ is any solution to the ordinary differential equation
+    \[
+    a_n \frac{d^n u}{d t^n} + a_{n-1} \frac{d^{n-1} u}{d t^{n-1}} + \dots + a_1 \frac{d u}{d t} + a_0 u = 0,
+    \]
+    then $\lim_{t \to \infty} u \brak{t}$ is equal to
+    \begin{enumerate}
+        \item $0$
+        \item $1$
+        \item $\infty$
+        \item $n - 1$
+    \end{enumerate}
+
+\textbf{Common Data for Questions $48$ and $49$:}
+
+    Let $c_{00}$ be the vector space of all complex sequences having finitely many non-zero terms. Equip $c_{00}$ with the inner product ${x, y} = \sum_{n = 1}^{\infty} x_n y_n$ for all $x = \brak{x_n}$ and $y = \brak{y_n}$ in $c_{00}$. Define $f: c_{00} \rightarrow \mathbb{C}$ by $f \brak{x} = \sum_{n=1}^{\infty} \frac{x_n}{n}$. Let $N$ be the kernel of $f$.
+
+    \item Which of the following is \textbf{FALSE}?
+    \begin{enumerate}
+        \item $f$ is a continuous linear functional
+        \item $\abs{\abs{f}} \leq \frac{\pi}{\sqrt{6}}$
+        \item There does not exist any $y \in c_{00}$ such that $f \brak{x} = {x, y}$ for all $x \in c_{00}$
+        \item $N^{\perp} \neq {0}$
+    \end{enumerate}
+
+    \item Which of the following is \textbf{FALSE}?
+    \begin{enumerate}
+        \item $c_{00} \neq N$
+        \item $N$ is closed
+        \item $c_{00}$ is not a complete inner product space
+        \item $c_{00} = N \oplus N^{\perp}$
+    \end{enumerate}
+\textbf{ Common Data for Questions $50$ and $51$:}
+
+    Let $X_1, X_2, \dots, X_n$ be an i.i.d random sample from an exponential distribution with mean $\mu$. In other words, they have density
+    \[
+    f \brak{x} = 
+    \begin{cases}
+      \frac{1}{\mu} e^{-x / \mu} & \text{if } x \textgreater 0 \\
+      0 & \text{otherwise}.
+    \end{cases}
+    \]
+
+    \item Which of the following is \textbf{NOT} an unbiased estimate of $\mu$?
+    \begin{enumerate}
+        \item $X_1$
+        \item $\frac{1}{n-1} \brak{X_1 + X_2 + \dots + X_n}$
+        \item $n  \min \brak{X_1, X_2, \dots, X_n}$
+        \item $\frac{1}{n}  \max \brak{X_1, X_2, \dots, X_n}$
+    \end{enumerate}
+
+    \item Consider the problem of estimating $\mu$. The  error m .s.e \brak{mean square error} of the estimate $T \brak{X} = \frac{X_1 + X_2 + \dots + X_n}{n + 1}$ is
+    \begin{enumerate}
+        \item $\mu^2$
+        \item $\frac{\mu^2}{n + 1}$
+        \item $\frac{ \mu^2}{\brak{n + 1}^2}$
+        \item $\frac{n^2 \mu^2}{\brak{n + 1}^2}$
+    \end{enumerate}
+
+\textbf{ Linked Answer Questions}
+
+   \textbf{ Statement for Linked Answer Questions $52$ and $53$:}
+
+    Let $X = \brak{\brak{x, y} \in \mathbb{R}^2 : x^2 + y^2 = 1} \cup \brak{\sbrak{-1, 1} \times \{0\}} \cup \brak{\{0\} \times \sbrak{-1, 1}}$. Let $n_0 = \max \{k : k < \infty, \text{ there are } k \text{ distinct points } p_1, \dots, p_k \in X \text{ such that } X \setminus \{p_1, \dots, p_k\} \text{ is connected} \}$
+
+    \item The value of $n_0$ is \dots
+
+
+
+
+
+
+
+ 
+\end{enumerate}
+
+\end{document}
+
