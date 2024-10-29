@@ -1,0 +1,149 @@
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+
+% Standard Packages
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage{tkz-euclide} 
+\usepackage{gvv} 
+\usepackage{longtable} 
+\usepackage{calc} 
+\usepackage{multirow}
+\usepackage{hhline} 
+\usepackage{tikz}
+\usepackage{ifthen}
+\usepackage{lscape}
+\usepackage{tabularx}
+\usepackage{float}
+
+\renewcommand{\thetable}{\theenumi}
+\theoremstyle{remark}
+
+% Begin Document
+\begin{document}
+
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{2016-MA-'1-13'}
+\author{AI24BTECH11006 - Bugada Roopansha}
+\maketitle
+
+\begin{enumerate}[start=1]
+ 
+    \item Let $\{X, Y, Z\}$ be a basis of $\mathbb{R}^3$. Consider the following statements $P$ and $Q$: 
+    \begin{enumerate}
+        \item $P$: $\{X+Y, Y+Z, X-Z\}$ is a basis of $\mathbb{R}^3$.
+        \item $Q$: $\{X + Y + Z, X+2Y - Z, X-3Z\}$ is a basis of $\mathbb{R}^3$.
+    \end{enumerate}
+    Which of the above statements hold TRUE?
+    \begin{enumerate}
+        \item both $P$ and $Q$
+        \item only $Q$
+        \item only $P$
+        \item Neither $P$ nor $Q$
+    \end{enumerate}
+
+    \item Consider the following statements $P$ and $Q$:\\
+      $P$: If $M = \begin{bmatrix} 1 & 1 & 1 \\ 1 & 2 & 4 \\ 1 & 3 & 9 \end{bmatrix}$, then $M$ is singular.\\
+ $Q$: Let $S$ be a diagonalizable matrix. If $T$ is a matrix such that $S + 5T = I$, then $T$ is diagonalizable.\\
+    Which of the above statements hold TRUE?
+    \begin{enumerate}
+        \item both $P$ and $Q$
+        \item only $Q$
+        \item only $P$
+        \item Neither $P$ nor $Q$
+    \end{enumerate}
+
+    \item Consider the following statements $P$ and $Q$:\\
+       
+         $P$: If $M$ is an $n \times n$ complex matrix, then $R\brak{M} = \brak{N\brak{M^*}}^\perp+$.\\
+        $Q$: There exists a unitary matrix with an eigenvalue $\lambda$ such that $\abs{\lambda} < 1$.\\
+    Which of the above statements hold TRUE?
+    \begin{enumerate}
+        \item both $P$ and $Q$
+        \item only $Q$
+        \item only $P$
+        \item Neither $P$ nor $Q$
+    \end{enumerate}
+
+    \item Consider a real vector space $V$ of dimension $n$ and a non-zero linear transformation $T: V \to V$. If $\text{dimension}\brak{T\brak{V}} < n$ and $T^2 = \lambda T$, for some $\lambda \in \mathbb{R} \setminus \{0\}$, then which of the following statements is TRUE?
+    \begin{enumerate}
+        \item $\text{determinant}\brak{T} = \abs{2}$
+        \item There exists a non-trivial subspace $V_1$ of $V$ such that $T\brak{X} = 0$ for all $X \in V$
+        \item $T$ is invertible
+        \item $2$ is the only eigenvalue of $T$
+    \end{enumerate}
+
+    \item Let $S = \brak{0,1} \cup \sbrak{2,3}$ and $f: S \to \mathbb{R}$ be a strictly increasing function such that $f\brak{S}$ is connected. Which of the following statements is TRUE?
+    \begin{enumerate}
+        \item $f$ has exactly one discontinuity
+        \item $f$ has exactly two discontinuities
+        \item $f$ has infinitely many discontinuities
+        \item $f$ is continuous
+    \end{enumerate}
+
+    \item Let $a_1 = 1$ and $a_n = a_{n-1} + 4$, $n \geq 2$. Then,
+    $$\lim_{n \to \infty} \frac{1}{a_1 a_2} + \frac{1}{a_2 a_3} + \dots + \frac{1}{a_{n-1} a_n}$$
+    is equal to$\cdots$
+
+    \item $\max \{x+y : \brak{x, y} \in B\brak{0,1}\}$ is equal to $\cdots$
+
+
+
+    \item Let $a, b, c, d \in \mathbb{R}$ such that $c^2 + d^2 \neq 0$. Then, the Cauchy problem
+    $$a u_x + b u_y = e^{x+y},  x, y \in \mathbb{R},$$
+    $$u\brak{x,y} = 0 \text{ on } cx + dy = 0$$
+    has a unique solution if
+    \begin{enumerate}
+        \item $a c + b d \neq 0$
+        \item $a d - b c \neq 0$
+        \item $a c - b d \neq 0$
+        \item $a d + b c \neq 0$
+    \end{enumerate}
+
+
+    \item Let $u\brak{x, t}$ be the d'Alembert's solution of the initial value problem for the wave equation
+    $$u_{tt} - c^2 u_{xx} = 0,$$
+    $$u\brak{x, 0} = f\brak{x}, u_t\brak{x, 0} = g\brak{x},$$
+    where $c$ is a positive real number and $f$, $g$ are smooth odd functions. Then, $u\brak{0,1}$ is equal to $\cdots$
+
+    \item Let the probability density function of a random variable $X$ be
+    $$f\brak{x} = \begin{cases} 
+      c\brak{2x - 1} & 0 < x \leq 1, \\
+      \frac{1}{x} & 1 < x \leq 2, \\
+      0 & \text{otherwise}.
+   \end{cases}$$
+    Then, the value of $c$ is equal to $\cdots$
+
+    \item Let $V$ be the set of all solutions of the equation $y{\prime}{\prime} + a y{\prime} + b y = 0$ satisfying $y\brak{0} = y\brak{1}$, where $a, b$ are positive real numbers. Then, $\text{dimension}\brak{V}$ is equal to
+
+    \item Let $y{\prime}{\prime} + p\brak{x} y{\prime} + q\brak{x}y = 0$, $x \in \brak{-\infty, \infty}$, where $p\brak{x}$ and $q\brak{x}$ are continuous functions. If $y_1\brak{x} = \sin\brak{x} - 2 \cos\brak{x}$ and $y_2\brak{x} = 2 \sin\brak{x} + \cos\brak{x}$ are two linearly independent solutions of the above equation, then $\abs{ 4p\brak{0} + 2 q\brak{1} }$ is equal to
+
+    \item Let $P\brak{x}$ be the Legendre polynomial of degree $n$ and $I = \int_{-1}^{1} x^k P\brak{x} \, dx$, where $k$ is a non-negative integer. Consider the following statements $P$ and $Q$:
+    \begin{itemize}
+        \item $P$: $I = 0$ if $k < n$.
+        \item $Q$: $I = 0$ if $n + k$ is an odd integer.
+    \end{itemize}
+    Which of the above statements hold TRUE?
+    \begin{enumerate}
+       
+        \item both $P$ and $Q$
+        \item only $Q$
+        \item only $P$
+        \item Neither $P$ nor $Q$
+    \end{enumerate}
+
+ 
+ 
+\end{enumerate}
+
+\end{document}
+
