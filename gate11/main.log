@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  30 OCT 2024 05:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  30 OCT 2024 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -975,6 +975,20 @@ Underfull \hbox (badness 3861) in paragraph at lines 53--54
  []
 
 
+LaTeX Warning: Command \textgreater invalid in math mode on input line 75.
+
+LaTeX Font Info:    Trying to load font information for OML+ptm on input line 7
+5.
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlptm.fd
+File: omlptm.fd 
+)
+LaTeX Font Info:    Font shape `OML/ptm/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 75.
+
+
+LaTeX Warning: Command \textgreater invalid in math mode on input line 75.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
@@ -999,10 +1013,10 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22813 strings out of 474222
- 479187 string characters out of 5748733
+ 22832 strings out of 474222
+ 479516 string characters out of 5748733
  1947975 words of memory out of 5000000
- 44554 multiletter control sequences out of 15000+600000
+ 44570 multiletter control sequences out of 15000+600000
  586931 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,6n,103p,1167b,290s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1016,7 +1030,7 @@ e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
 tmr8a.pfb>
-Output written on main.pdf (2 pages, 109016 bytes).
+Output written on main.pdf (2 pages, 109013 bytes).
 PDF statistics:
  65 PDF objects out of 1000 (max. 8388607)
  40 compressed objects within 1 object stream
