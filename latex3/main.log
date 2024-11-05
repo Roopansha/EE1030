@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  11 OCT 2024 15:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  2 NOV 2024 16:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,50 +1287,44 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 83--85
+Underfull \hbox (badness 10000) in paragraph at lines 87--90
 []\OT1/txr/m/n/12 If an un-bi-ased die, marked with
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 83--85
-\OMS/txsy/m/n/12 ^^@\OT1/txr/m/n/12 2\OML/txmi/m/it/12 ; \OMS/txsy/m/n/12 ^^@\O
-T1/txr/m/n/12 1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 0\OML/txmi/m/it/12 ; \OT1/tx
-r/m/n/12 1\OML/txmi/m/it/12 ; \OT1/txr/m/n/12 2\OML/txmi/m/it/12 ; \OT1/txr/m/n
-/12 3$ on its faces, is thrown
- []
-
-
-Underfull \hbox (badness 3579) in paragraph at lines 83--85
-\OT1/txr/m/n/12 five times, then the prob-a-bil-ity that the
- []
-
-
-LaTeX Warning: Command \textless invalid in math mode on input line 91.
+LaTeX Warning: Command \textless invalid in math mode on input line 96.
 
 LaTeX Font Info:    Trying to load font information for OML+txr on input line 9
-1.
+6.
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
 File: omltxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 91.
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 96.
 
 
-LaTeX Warning: Command \textless invalid in math mode on input line 91.
+LaTeX Warning: Command \textless invalid in math mode on input line 96.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 []\OT1/txr/m/n/12 The num-ber of four-digit num-bers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 98--100
 []$ \OT1/txr/m/n/12 made us-ing
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+[]$[][] [] [][] []\OML/txmi/m/it/12 dt$ \OT1/txr/m/n/12 is equal to $[] $
  []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
 dist/fonts/enc/dvips/base/8r.enc}
 
+
+] [2
 
 ] (./main.aux)
  ***********
@@ -1341,23 +1335,23 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 031FB839E74A7AF4975CE40FA007C5B5;192.
  ) 
 Here is how much of TeX's memory you used:
- 30374 strings out of 474222
- 594126 string characters out of 5748733
- 1970975 words of memory out of 5000000
+ 30375 strings out of 474222
+ 594132 string characters out of 5748733
+ 1973975 words of memory out of 5000000
  51931 multiletter control sequences out of 15000+600000
  617714 words of font info for 153 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,7n,103p,1172b,551s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1172b,597s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 51751 bytes).
+Output written on main.pdf (2 pages, 52640 bytes).
 PDF statistics:
- 105 PDF objects out of 1000 (max. 8388607)
- 87 compressed objects within 1 object stream
- 39 named destinations out of 1000 (max. 500000)
+ 109 PDF objects out of 1000 (max. 8388607)
+ 90 compressed objects within 1 object stream
+ 40 named destinations out of 1000 (max. 500000)
  29 words of extra memory for PDF output out of 10000 (max. 10000000)
 

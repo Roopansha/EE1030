@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  13 OCT 2024 03:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  2 NOV 2024 17:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1296,18 +1296,29 @@ File: omltxr.fd 2000/12/15 v3.1
 LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
 (Font)              Font shape `OML/txmi/m/it' tried instead on input line 55.
 
-Underfull \hbox (badness 1728) in paragraph at lines 111--112
+Underfull \hbox (badness 1748) in paragraph at lines 82--85
+[] \OML/txmi/m/it/12 R []$ \OT1/txr/m/n/12 if and only if $\OML/txmi/m/it/12 x[
+] \OMS/txsy/m/n/12 ^^T \OML/txmi/m/it/12 x[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--91
+\OT1/txr/m/n/12 Which one of the fol-low-ing is true:
+ []
+
+
+Underfull \hbox (badness 1728) in paragraph at lines 117--119
 []\OT1/txr/m/n/12 Consider a tri-an-gle $\OML/txmi/m/it/12 ABC$ \OT1/txr/m/n/12
  hav-ing the ver-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Underfull \hbox (badness 10000) in paragraph at lines 122--124
 []\OT1/txr/m/n/12 If $[]  [] []\OML/txmi/m/it/12 xdx \OT1/txr/m/n/12 =
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 127--128
+Underfull \hbox (badness 1466) in paragraph at lines 133--135
 []\OT1/txr/m/n/12 Consider a line $\OML/txmi/m/it/12 L$ \OT1/txr/m/n/12 pass-in
 g through points
  []
@@ -1320,7 +1331,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 1609) in paragraph at lines 133--135
+Underfull \hbox (badness 1609) in paragraph at lines 139--142
 []\OT1/txr/m/n/12 Let $\OML/txmi/m/it/12 S \OT1/txr/m/n/12 = \OMS/txsy/m/n/12 f
 [][] \OT1/txr/m/n/12 2\OML/txmi/m/it/12 ^^R \OT1/txr/m/n/12 : [] \OML/txmi/m/it
 /12 x[] \OT1/txr/m/n/12 +
@@ -1339,11 +1350,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  30381 strings out of 474222
  594252 string characters out of 5748733
- 1970975 words of memory out of 5000000
+ 1971975 words of memory out of 5000000
  51934 multiletter control sequences out of 15000+600000
  619064 words of font info for 155 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,103p,1172b,588s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,103p,1172b,590s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fo
@@ -1353,7 +1364,7 @@ s/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsyc.pfb
 ></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/te
 xlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 63790 bytes).
+Output written on main.pdf (2 pages, 64243 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  97 compressed objects within 1 object stream

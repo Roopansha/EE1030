@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  11 OCT 2024 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  2 NOV 2024 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,13 +1288,13 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 File: ts1txr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Trying to load font information for OML+txr on input line 9
-1.
+6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/omltxr.fd
 File: omltxr.fd 2000/12/15 v3.1
 )
 LaTeX Font Info:    Font shape `OML/txr/m/n' in size <12> not available
-(Font)              Font shape `OML/txmi/m/it' tried instead on input line 91.
+(Font)              Font shape `OML/txmi/m/it' tried instead on input line 96.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1315,7 +1315,7 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 Here is how much of TeX's memory you used:
  30413 strings out of 474222
  594437 string characters out of 5748733
- 1967975 words of memory out of 5000000
+ 1970975 words of memory out of 5000000
  51932 multiletter control sequences out of 15000+600000
  616372 words of font info for 151 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
@@ -1327,7 +1327,7 @@ nts/type1/public/txfonts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/txfonts/txsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utm
 b8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/s
 hare/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 57099 bytes).
+Output written on main.pdf (2 pages, 57846 bytes).
 PDF statistics:
  159 PDF objects out of 1000 (max. 8388607)
  137 compressed objects within 2 object streams
