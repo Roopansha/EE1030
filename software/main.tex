@@ -1,0 +1,136 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb, booktabs}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+
+\title{Eigenvalue Calculation: QR Algorithm Analysis and Implementation}
+\author{Roopansha Bugada(AI24BTECH11006)}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+Eigenvalues and eigenvectors are fundamental concepts in linear algebra with applications in engineering, physics, and data science. 
+
+An eigenvalue of a square matrix $A$ is a scalar $\lambda$ such that there exists a non-zero vector $\mathbf{v}$ (called the eigenvector) satisfying the equation:
+\[
+A \mathbf{v} = \lambda \mathbf{v}.
+\]
+Here, $\lambda$ represents how the eigenvector $\mathbf{v}$ is scaled during the linear transformation defined by $A$. Eigenvalues provide insights into the properties of matrices, such as stability, resonance, and dimensionality reduction.
+
+This report focuses on computing eigenvalues using the QR algorithm, a widely used and efficient method. The QR algorithm was selected due to its robustness and versatility in handling dense matrices.
+
+\section{QR Algorithm Description}
+The QR algorithm is an iterative method to compute the eigenvalues of a matrix $A$. The process involves the following steps:
+\begin{enumerate}
+    \item Factorize $A$ into a product of an orthogonal matrix $Q$ and an upper triangular matrix $R$ such that $A = QR$.
+    \item Update $A$ as $A \gets RQ$.
+    \item Repeat the process until $A$ converges to a diagonal matrix. The diagonal elements of the converged matrix are the eigenvalues of $A$.
+\end{enumerate}
+
+The algorithm relies on the QR decomposition, ensuring numerical stability and convergence under appropriate conditions.
+
+\subsection{Pseudocode}
+\begin{enumerate}
+    \item \textbf{Input}: Matrix $A$, tolerance $\epsilon$, and maximum iterations $N$.
+    \item \textbf{Output}: Eigenvalues of $A$.
+    \item Initialize $k = 0$.
+    \item While $k < N$ and $\|A_{k+1} - A_k\|_F > \epsilon$:
+
+        \item Compute $Q_k, R_k$ such that $A_k = Q_k R_k$.
+        \item Update $A_{k+1} = R_k Q_k$.
+        \item Increment $k$.
+
+    \item Return the diagonal elements of $A_k$.
+\end{enumerate}
+
+\section{Time Complexity Analysis}
+The QR algorithm involves repeated QR decompositions, each with a time complexity of $\mathcal{O}(n^3)$ for an $n \times n$ matrix. Assuming convergence in $m$ iterations, the total time complexity is $\mathcal{O}(m n^3)$. 
+\section{Comparison of Algorithms}
+The QR algorithm is a robust and general-purpose method for eigenvalue computation. Below is a comparison of its advantages and disadvantages relative to other algorithms.
+
+\subsection{QR Algorithm}
+\textbf{Advantages:}
+\begin{itemize}
+    \item High accuracy and numerical stability for dense matrices.
+    \item Simultaneously computes all eigenvalues.
+    \item Handles a wide range of matrices without requiring specific conditions like symmetry or sparsity.
+\end{itemize}
+\textbf{Disadvantages:}
+\begin{itemize}
+    \item Computationally expensive with a complexity of $\mathcal{O}(n^3)$ per iteration.
+    \item Not optimal for large or sparse matrices without modifications (e.g., Hessenberg reduction).
+\end{itemize}
+
+\subsection{Power Iteration}
+\textbf{Advantages:}
+\begin{itemize}
+    \item Simple and easy to implement.
+    \item Efficient for finding the largest eigenvalue of a matrix.
+\end{itemize}
+\textbf{Disadvantages:}
+\begin{itemize}
+    \item Can only find the largest eigenvalue, requiring modifications (e.g., deflation) for others.
+    \item Slow convergence, especially when eigenvalues are close in magnitude.
+    \item Sensitive to matrix scaling.
+\end{itemize}
+
+\subsection{Inverse Iteration}
+\textbf{Advantages:}
+\begin{itemize}
+    \item Efficient for finding eigenvalues near a specified value.
+    \item High accuracy when combined with shifts (shifted inverse iteration).
+\end{itemize}
+\textbf{Disadvantages:}
+\begin{itemize}
+    \item Requires computing matrix inverses, increasing computational cost.
+    \item Needs a good initial guess for eigenvalue proximity, making it less general-purpose than QR.
+\end{itemize}
+
+\subsection{Jacobi Method}
+\textbf{Advantages:}
+\begin{itemize}
+    \item Highly accurate and stable for symmetric matrices.
+    \item Easy to implement for such matrices.
+\end{itemize}
+\textbf{Disadvantages:}
+\begin{itemize}
+    \item Inefficient for large matrices due to slow convergence.
+    \item Not suitable for non-symmetric matrices, limiting its use cases.
+\end{itemize}
+
+\subsection{Lanczos Method}
+\textbf{Advantages:}
+\begin{itemize}
+    \item Very efficient for large, sparse symmetric matrices.
+    \item Projects the matrix to a smaller Krylov subspace, reducing dimensionality.
+\end{itemize}
+\textbf{Disadvantages:}
+\begin{itemize}
+    \item Limited to symmetric matrices.
+    \item Can lose orthogonality in computed vectors, requiring re-orthogonalization for stability.
+\end{itemize}
+
+\subsection{Arnoldi Iteration}
+\textbf{Advantages:}
+\begin{itemize}
+    \item Suitable for large, non-symmetric sparse matrices.
+    \item Extends the Lanczos method to handle non-symmetric cases.
+\end{itemize}
+\textbf{Disadvantages:}
+\begin{itemize}
+    \item Memory-intensive, especially for large matrices.
+    \item Slower convergence compared to other iterative methods.
+\end{itemize}
+
+
+
+\section{Insights and Observations}
+The QR algorithm performs well for dense matrices, providing accurate results. However, it is computationally intensive for large matrices due to its $\mathcal{O}(n^3)$ complexity per iteration. For sparse matrices, alternative methods like the Lanczos or Arnoldi iteration are preferable. Convergence depends on the matrix properties, and deflation techniques can be used to improve performance.
+
+\section{Conclusion}
+The QR algorithm is a robust and versatile method for eigenvalue computation, particularly for dense matrices. While computationally demanding, its stability and accuracy make it a reliable choice in practical applications. Future work could explore optimizations such as Hessenberg transformations to reduce the computational burden.
+
+\end{document}
+
