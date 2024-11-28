@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  26 OCT 2024 16:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 NOV 2024 08:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1003,7 +1003,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 -dist/fonts/enc/dvips/base/8r.enc}
 
 
-] [2
+] (./tables/table1.tex) [2
 
 ] (./main.aux)
  ***********
@@ -1012,13 +1012,13 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22819 strings out of 474222
- 479323 string characters out of 5748733
+ 22826 strings out of 474222
+ 479448 string characters out of 5748733
  1942975 words of memory out of 5000000
- 44559 multiletter control sequences out of 15000+600000
+ 44562 multiletter control sequences out of 15000+600000
  588038 words of font info for 98 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,7n,103p,1167b,294s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1167b,298s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texliv

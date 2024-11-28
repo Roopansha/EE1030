@@ -1,0 +1,32 @@
+\begin{tikzpicture}
+
+% Define coordinates
+\coordinate (P) at (0,1);       % Point P
+\coordinate (O) at (0,3);       % Point O (500 mm above P)
+\coordinate (S) at (2,2.77);     % Point S (diagonal to O)
+\coordinate (R) at (4.5,5);     % Point R (horizontal to O)
+\coordinate (N) at (4,6.5);
+% Draw the vertical wall
+\draw[thick] (0,0) -- (0,5) node[midway, left] {}; % Wall from P to O
+\draw[thick] (-3,6) -- (7,6) node[midway, left] {};
+% Draw the beam OS
+\draw[thick] (O) -- (S) node[midway, above right] {};  % Beam OS
+
+% Draw the horizontal beam OR
+\draw[thick] (P) -- (R) node[midway, above] {}; % Horizontal beam 
+\draw[thick] (N) -- (R) node[midway, above] {};
+
+
+% Points and labels
+\filldraw[black] (P) circle (2pt) node[left] {P};  % Point P
+\filldraw[black] (O) circle (2pt) node[left] {O};  % Point O
+\filldraw[black] (S) circle (2pt) node[right] {S}; % Point S
+\filldraw[black] (R) circle (2pt) node[right] {R}; % Point R
+\filldraw[black] (N) circle (2pt) node[right] {N};
+% Dimension line for PO (500 mm)
+\draw[<->] (-0.5,1) -- (-0.5,3) node[midway, left] {500mm};
+\draw (3.5,6) --(3.5,7) --(4.5,7) --(4.5,6);
+% Angle indicator for the rotation at O
+\draw[->] (0.3,2.5) arc[start angle=-60,end angle=0,radius=1] node[midway, right] {};
+
+\end{tikzpicture}

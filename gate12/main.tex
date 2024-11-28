@@ -52,78 +52,20 @@
 \begin{enumerate}
 
 \item
-\begin{tikzpicture}[scale=0.6] % Adjust the scale factor as needed
-    % Axes
-    \draw[->] (-1,0) -- (6,0) node[right] {$r/a_0$};
-    \draw[->] (0,-1) -- (0,4) node[above] {R(r)};
-
-    % Bézier curve from (0,0) to (5,3) with control points
-    \draw[thick, color=black]
-        (0,3) .. controls (0.5,-3) and (2,1) .. (5,0.1);
-
-    % Mark point
-    \fill (0,0) circle (2pt) node[below left] { O};
-\end{tikzpicture}
-
+\input{figs/fig1.tex}
 \item
-\begin{tikzpicture}[scale=0.6] % Adjust the scale factor as needed
-    % Axes
-    \draw[->] (-1,0) -- (6,0) node[right] {$r/a_0$};
-    \draw[->] (0,-1) -- (0,4) node[above] {R(r)};
-
-    % Bézier curve from (0,0) to (5,3) with control points
-    \draw[thick, color=black]
-        (0,0) .. controls (0.5,6) and (1,-4) .. (3,-0.1);
-
-    % Mark point
-    \fill (0,0) circle (2pt) node[below left] { O};
-\end{tikzpicture}
-
+\input{figs/fig2.tex}
 \item
-\begin{tikzpicture}[scale=0.6] % Adjust the scale factor as needed
-    % Axes
-    \draw[->] (-1,0) -- (6,0) node[right] {$r/a_0$};
-    \draw[->] (0,-1) -- (0,4) node[above] {R(r)};
-
-    % Bézier curve from (0,0) to (5,3) with control points
-    \draw[thick, color=black]
-        (0,3) .. controls (2,-1) .. (5,-0.1);
-
-    % Mark point
-    \fill (0,0) circle (2pt) node[below left] { O};
-\end{tikzpicture}
-
+\input{figs/fig3.tex}
 \item
-\begin{tikzpicture}[scale=0.6] % Adjust the scale factor as needed
-    % Axes
-    \draw[->] (-1,0) -- (6,0) node[right] {$r/a_0$};
-    \draw[->] (0,-1) -- (0,4) node[above] {R(r)};
-
-    % Bézier curve from (0,0) to (5,3) with control points
-    \draw[thick, color=black]
-        (0,0) .. controls (0.5,5) and (1,-0.5) .. (3,0.1);
-
-    % Mark point
-    \fill (0,0) circle (2pt) node[below left] { O};
-\end{tikzpicture}
-
+\input{figs/fig4.tex}
 \end{enumerate}
 
 
 
 \item Given the following table,
 
-\begin{table}[h!]
-    \centering
-    \begin{tabular}{|p{3cm}|p{5cm}|}
-        \hline
-        \textbf{Group I} &  \textbf{Group II}  \\ \hline
-        P: Stern-Gerlach experiment & $1$: Wave nature of particles \\ \hline
-        Q:  Zeeman effect & $2$: Quantization of energy of electrons in the atoms \\ \hline
-        R:  Frank-Hertz experiment & $3$: Existence of electron spin \\ \hline
-        S: Davisson-Germer experiment & $4$: Space quantization of angular momentum \\ \hline
-    \end{tabular}
-\end{table}
+\input{tables/table1.tex}
 Which one of the following correctly matches the experiments from Group I to their inferences in Group II?
 \begin{enumerate}
     \item P-$2$, Q-$3$, R-$4$, S-$1$
@@ -157,73 +99,7 @@ Which one of the following correctly matches the experiments from Group I to the
 \end{enumerate}
 
 \item For the given unit cells of a two-dimensional square lattice, which option lists all the primitive cells?\\
-\begin{figure}[!ht]
-\centering
-\resizebox{0.6\textwidth}{!}{%
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\LARGE]
-\draw (7.75,8) to[short] (7.75,8);
-\draw (7.75,7.5) to[short] (7.75,7.5);
-\node [font=\Large] at (14,8.5) {};
-\node [font=\Large] at (14,8.5) {};
-
-
-\node at (4.5,10.5) [circ] {};
-\node at (4.5,9.75) [circ] {};
-\node at (4.5,9) [circ] {};
-\node at (4.5,8.25) [circ] {};
-\node at (5.25,10.5) [circ] {};
-\node at (6,10.5) [circ] {};
-\node at (6.75,10.5) [circ] {};
-\node at (7.5,10.5) [circ] {};
-\node at (8.25,10.5) [circ] {};
-\node at (9,10.5) [circ] {};
-\node at (5.25,9.75) [circ] {};
-\node at (5.25,9) [circ] {};
-\node at (6,9.75) [circ] {};
-\node at (6.75,9.75) [circ] {};
-\node at (7.5,9.75) [circ] {};
-\node at (8.25,9.75) [circ] {};
-\node at (9,9.75) [circ] {};
-\node at (9,9) [circ] {};
-\node at (9,8.25) [circ] {};
-\node at (5.25,8.25) [circ] {};
-\node at (6,8.25) [circ] {};
-\node at (6,9) [circ] {};
-\node at (6.75,9) [circ] {};
-\node at (7.5,9) [circ] {};
-\node at (8.25,9) [circ] {};
-\node at (8.25,8.25) [circ] {};
-\node at (7.5,8.25) [circ] {};
-\node at (6.75,8.25) [circ] {};
-\draw (4.5,10.5) to[short] (4.5,9.75);
-\draw (4.5,9.75) to[short] (5.25,9.75);
-\draw (4.5,10.5) to[short] (5.25,10.5);
-\draw (5.25,10.5) to[short] (5.25,9.75);
-\draw (6,10.5) to[short] (7.5,10.5);
-\draw (7.5,10.5) to[short] (7.5,9.75);
-\draw (7.5,9.75) to[short] (6,9.75);
-\draw (6,9.75) to[short] (6,10.5);
-\draw (4.5,8.25) to[short] (5.25,9);
-\draw (5.25,9) to[short] (6,9);
-\draw (6,9) to[short] (5.25,8.25);
-\draw (5.25,8.25) to[short] (4.5,8.25);
-\draw (6.25,9.25) to[short] (6.25,8.5);
-\draw (6.25,9.25) to[short] (7.25,9.25);
-\draw (7.25,8.5) to[short] (7.25,9.25);
-\draw (6.25,8.5) to[short] (7.25,8.5);
-\draw (8,10) to[short] (8,9.25);
-\draw (8,10) to[short] (8.75,10);
-\draw (8,9.25) to[short] (8.75,9.25);
-\draw (8.75,10) to[short] (8.75,9.25);
-\node [font=\small] at (5,10) {1};
-\node [font=\small] at (5,8.5) {2};
-\node [font=\small] at (6.5,10) {5};
-\node [font=\small] at (8.5,9.5) {4};
-\node [font=\small] at (7,9) {3};
-\end{circuitikz}
-}%
-\end{figure}
+\input{figs/fig5.tex}
 \begin{enumerate}
     \item $1$ and $2$
     \item $1$,$2$ and $3$
@@ -249,15 +125,7 @@ Which one of the following correctly matches the experiments from Group I to the
 
 \item Match the physical effects and order of magnitude of their energy scales given below, where $\alpha=\frac{e^2}{4\pi\epsilon_o\hbar c}$ is the fine structure constant, $m_e$ and $m_p$ are the electron and proton masses, respectively.
 
-\begin{tabular}{|c|c|}
-\hline
-Group I & Group II \\ \hline
-P: Lamb shift & $1: \sim 0 \brak{\alpha^2 m_e c^2}$ \\ \hline
-Q: Fine structure & $2: \sim 0 \brak{\alpha^4 m_e c^2}$ \\ \hline
-R: Bohr energy & $3: \sim 0 \brak{\frac{\alpha^4 m_e^2 c^2}{ m_p}}$ \\ \hline
-S: Hyperfine structure & $4: \sim 0 \brak{\alpha^5 m_p c^2}$ \\ \hline
-\end{tabular}
-
+\input{tables/table2.tex}
 \begin{enumerate}
     \item $P-3, Q-1, R-2, S-4$
     \item $P-2, Q-3, R-1, S-4$
@@ -282,203 +150,25 @@ S: Hyperfine structure & $4: \sim 0 \brak{\alpha^5 m_p c^2}$ \\ \hline
 \end{enumerate}
 
 \item In a $2$-to-$1$ multiplexer as shown below, the output $X=A_0$ if $C=0$ and $X=A_1$ if $C=1$.\\
-\begin{figure}[!ht]
-\centering
-\resizebox{0.3\textwidth}{!}{%
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\LARGE]
-\draw (7.75,8) to[short] (7.75,8);
-\draw (7.75,7.5) to[short] (7.75,7.5);
-
-\node [font=\Large] at (14,8.5) {};
-\node [font=\Large] at (14,8.5) {};
-\draw  (10.25,9) rectangle (11.75,7);
-
-\draw (11.75,8) to[short] (13,8);
-\draw (11,10) to[short] (11,9);
-\draw (9,8.25) to[short] (10.25,8.25);
-\draw (9,7.5) to[short] (10.25,7.5);
-\node [font=\LARGE] at (11,10.25) {C};
-\node [font=\LARGE] at (13.5,8) {X};
-\node [font=\LARGE] at (8.5,8) {$A_0$};
-\node [font=\LARGE] at (8.5,7.5) {$A_1$};
-\end{circuitikz}
-}%
-\end{figure}
+\input{figs/fig6.tex}
 Which one of the following is the correct implementation of this multiplexer?
 \begin{enumerate}
     \item 
-\centering
-\resizebox{0.3\textwidth}{!}{%
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\LARGE]
-% Connections for the first AND gate
-\draw (5.5,9.75) to[short] (7.5,9.75);
-\draw (7.5,9.75) to[short] (7.75,9.75);
-\draw (7.5,9.25) to[short] (7.75,9.25);
-\draw (7.75,9.75) node[ieeestd and port, anchor=in 1, scale=0.89](port1){} (port1.out) to[short] (9.5,9.5);
-\draw (5.75,9.25) to[short, -o] (7.75,9.25);
-\draw (5.75,8) to[short] (5.75,9.25);
-
-% Connections for input C
-\draw (4.5,8.5) to[short] (5.75,8.5);
-
-% Connections for the second AND gate
-\draw (5.75,8) to[short] (7.75,8);
-\draw (7.5,8) to[short] (7.75,8);
-\draw (7.5,7.5) to[short] (7.75,7.5);
-\draw (7.75,8) node[ieeestd and port, anchor=in 1, scale=0.89](port2){} (port2.out) to[short] (9.5,7.75);
-\draw (6.5,7.5) to[short] (7.75,7.5);
-
-% Connections for OR gate
-\draw (9.5,9.5) to[short] (9.5,8.75);
-\draw (9.5,8.25) to[short] (11.5,8.25);
-\draw (9.5,8.75) to[short] (11.5,8.75);
-\draw (9.5,7.75) to[short] (9.5,8.25);
-\draw (11.25,8.75) to[short] (11.5,8.75);
-\draw (11.25,8.25) to[short] (11.5,8.25);
-\draw (11.5,8.75) node[ieeestd or port, anchor=in 1, scale=0.89](port3){} (port3.out) to[short] (13.25,8.5);
-
-% Output node and labels
-\node at (13.25,8.5) [circ] {};
-\node [font=\LARGE] at (14,8.5) {X};
-
-% Input labels
-\node [font=\LARGE] at (5,9.5) {$A_0$};
-\node [font=\LARGE] at (4,8.5) {C};
-\node [font=\LARGE] at (6,7.5) {$A_1$};
-
-\end{circuitikz}
-}%
-
+\input{figs/fig7.tex}
 
 \item 
-\centering
-\resizebox{0.3\textwidth}{!}{%  % Set to 50% of the text width
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\LARGE]
-% Connections for the first AND gate
-\draw (5.5,9.75) to[short] (7.5,9.75);
-\draw (7.5,9.75) to[short] (7.75,9.75);
-\draw (7.5,9.25) to[short] (7.75,9.25);
-\draw (7.75,9.75) node[ieeestd and port, anchor=in 1, scale=0.89](port1){} (port1.out) to[short] (9.5,9.5);
-
-% Connections for other components
-\draw (5.75,8) to[short] (5.75,9.25);
-\draw (4.5,8.5) to[short] (5.75,8.5);
-\draw (7.75,8) to[short] (7.75,8);
-\draw (7.75,7.5) to[short] (7.75,7.5);
-\draw (7.75,8) node[ieeestd and port, anchor=in 1, scale=0.89](port2){} (port2.out) to[short] (9.5,7.75);
-\draw (6.5,7.5) to[short] (7.75,7.5);
-
-% OR gate connections
-\draw (9.5,9.5) to[short] (9.5,8.75);
-\draw (9.5,8.25) to[short] (11.5,8.25);
-\draw (9.5,8.75) to[short] (11.5,8.75);
-\draw (9.5,7.75) to[short] (9.5,8.25);
-\draw (11.25,8.75) to[short] (11.5,8.75);
-\draw (11.25,8.25) to[short] (11.5,8.25);
-\draw (11.5,8.75) node[ieeestd or port, anchor=in 1, scale=0.89](port3){} (port3.out) to[short] (13.25,8.5);
-
-% Output node and labels
-\node at (13.25,8.5) [circ] {};
-\node [font=\Large] at (14,8.5) {X};
-
-% Input labels
-\node [font=\Large] at (5,9.5) {$A_0$};
-\node [font=\Large] at (4,8.5) {C};
-\node [font=\Large] at (6,7.5) {$A_1$};
-
-% Additional short connections for clarity
-\draw (7.5,9.25) to[short] (5.75,9.25);
-\draw (7.5,8) to[short] (7.75,8);
-\draw (7.5,7.5) to[short] (7.75,7.5);
-\draw (5.75,8) to[short, -o] (7.75,8);
-
-\end{circuitikz}
-}%
+\input{figs/fig8.tex}
 
 \item 
 
 
-\resizebox{0.3\textwidth}{!}{
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\LARGE]
-\draw (5.5,9.75) to[short] (7.5,9.75);
-\draw (5.75,8) to[short] (5.75,9.25);
-\draw (4.5,8.5) to[short] (5.75,8.5);
-\draw (7.75,8) to[short] (7.75,8);
-\draw (7.75,7.5) to[short] (7.75,7.5);
-\draw (7.75,8) node[ieeestd and port, anchor=in 1, scale=0.89](port1){} (port1.out) to[short] (9.5,7.75);
-\draw (6.5,7.5) to[short] (7.75,7.5);
-\draw (9.5,9.5) to[short] (9.5,8.75);
-\draw (9.5,8.25) to[short] (11.5,8.25);
-\draw (9.5,8.75) to[short] (11.5,8.75);
-\draw (9.5,7.75) to[short] (9.5,8.25);
-\draw (11.25,8.75) to[short] (11.5,8.75);
-\draw (11.25,8.25) to[short] (11.5,8.25);
-\draw (11.5,8.75) node[ieeestd or port, anchor=in 1, scale=0.89](port2){} (port2.out) to[short] (13.25,8.5);
-
-% Output node and labels
-\node at (13.25,8.5) [circ] {};
-\node [font=\Large] at (14,8.5) {X};
-
-% Input labels
-\node [font=\Large] at (5,9.5) {$A_0$};
-\node [font=\Large] at (4,8.5) {C};
-\node [font=\Large] at (6,7.5) {$A_1$};
-
-% Additional connections
-\draw (7.5,8) to[short] (5.75,8);
-\draw (7.5,8) to[short] (7.75,8);
-\draw (7.5,7.5) to[short] (7.75,7.5);
-\draw (7.5,9.75) to[short] (7.75,9.75);
-\draw (7.5,9.25) to[short] (7.75,9.25);
-\draw (7.75,9.75) node[ieeestd or port, anchor=in 1, scale=0.89](port4){} (port4.out) to[short] (9.5,9.5);
-\draw (5.75,9.25) to[short, -o] (7.75,9.25);
-\end{circuitikz}
-}%
+\input{figs/fig9.tex}
 
 \item 
 
 
 
-\resizebox{0.3\textwidth}{!}{%  % Set to 60% of the text width
-\begin{circuitikz}
-\tikzstyle{every node}=[font=\LARGE]
-\draw (5.5,9.75) to[short] (7.5,9.75);
-\draw (7.5,9.75) to[short] (7.75,9.75);
-\draw (7.5,9.25) to[short] (7.75,9.25);
-\draw (7.75,9.75) node[ieeestd and port, anchor=in 1, scale=0.89](port1){} (port1.out) to[short] (9.5,9.5);
-\draw (5.75,8) to[short] (5.75,9.25);
-\draw (4.5,8.5) to[short] (5.75,8.5);
-\draw (7.75,8) to[short] (7.75,8);
-\draw (7.75,7.5) to[short] (7.75,7.5);
-\draw (7.75,8) node[ieeestd and port, anchor=in 1, scale=0.89](port2){} (port2.out) to[short] (9.5,7.75);
-\draw (6.5,7.5) to[short] (7.75,7.5);
-\draw (9.5,9.5) to[short] (9.5,8.75);
-\draw (9.5,8.25) to[short] (11.5,8.25);
-\draw (9.5,8.75) to[short] (11.5,8.75);
-\draw (9.5,7.75) to[short] (9.5,8.25);
-\draw (11.25,8.75) to[short] (11.5,8.75);
-\draw (11.25,8.25) to[short] (11.5,8.25);
-\draw (11.5,8.75) node[ieeestd or port, anchor=in 1, scale=0.89](port3){} (port3.out) to[short] (13.25,8.5);
-
-% Output node and labels
-\node at (13.25,8.5) [circ] {};
-\node [font=\Large] at (14,8.5) {X};
-
-% Input labels
-\node [font=\Large] at (5,9.5) {$A_0$};
-\node [font=\Large] at (4,8.5) {C};
-\node [font=\Large] at (6,7.5) {$A_1$};
-
-% Additional connections
-\draw (7.5,9.25) to[short] (5.75,9.25);
-\draw (7.5,8) to[short] (5.75,8);
-
-\end{circuitikz}
-}%
+\input{figs/fig10.tex}
 
 
 \end{enumerate}

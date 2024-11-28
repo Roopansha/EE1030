@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 OCT 2024 08:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 NOV 2024 08:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,74 +963,85 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-Overfull \hbox (26.7859pt too wide) in paragraph at lines 41--69
+) (./figs/fig1.tex)
+Overfull \hbox (26.7859pt too wide) in paragraph at lines 41--43
 []$\OT1/ptm/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--69
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
 \OT1/ptm/m/n/12 Ig-nor-ing the three-dimensional ef-fects,
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 41--69
+Underfull \hbox (badness 2376) in paragraph at lines 41--43
 \OT1/ptm/m/n/12 the struc-tural mem-ber will buckle if the
  []
 
 
-Overfull \hbox (9.72151pt too wide) in paragraph at lines 41--69
-[] 
+Overfull \hbox (9.72151pt too wide) in paragraph at lines 41--43
+[]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 41--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 []\OT1/ptm/m/n/12 A gas cylin-der
  []
 
 
-Overfull \hbox (3.41246pt too wide) in paragraph at lines 82--84
+Overfull \hbox (3.41246pt too wide) in paragraph at lines 56--58
 []$
  []
 
 
-Underfull \hbox (badness 2245) in paragraph at lines 82--84
+Underfull \hbox (badness 2245) in paragraph at lines 56--58
 \OT1/ptm/m/n/12 fail-ure stress of $\OT1/cmr/m/n/12 260[]$\OT1/ptm/m/n/12 . As-
 sum-ing von
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 82--84
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 []$
  []
 
-
-Underfull \hbox (badness 5862) in paragraph at lines 90--115
+(./figs/fig2.tex)
+Underfull \hbox (badness 5862) in paragraph at lines 64--66
 []\OT1/ptm/m/n/12 A can-tilevered beam is sub-jected to a
  []
 
 
-Underfull \hbox (badness 1460) in paragraph at lines 90--115
+Underfull \hbox (badness 1460) in paragraph at lines 64--66
 \OML/cmm/m/it/12 ^^^ \OT1/cmr/m/n/12 = \OML/cmm/m/it/12 C[]xy \OT1/cmr/m/n/12 +
  \OML/cmm/m/it/12 C[]xy[] \OT1/cmr/m/n/12 + \OML/cmm/m/it/12 C[]x[]y[] \OT1/cmr
 /m/n/12 + \OML/cmm/m/it/12 C[]x[]y$\OT1/ptm/m/n/12 .
  []
 
 
-Overfull \hbox (53.70042pt too wide) in paragraph at lines 90--115
-[] 
+Overfull \hbox (53.70042pt too wide) in paragraph at lines 64--66
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--66
+
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 125--148
+(./figs/fig3.tex)
+Underfull \hbox (badness 1762) in paragraph at lines 76--78
 \OT1/ptm/m/n/12 as shown in the fig-ure. The fun-da-men-tal
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 125--148
+Underfull \hbox (badness 1997) in paragraph at lines 76--78
 \OT1/ptm/m/n/12 nat-u-ral fre-quency $[]$ of the sys-tem is
  []
 
@@ -1042,37 +1053,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 3343) in paragraph at lines 169--170
+Underfull \hbox (badness 3343) in paragraph at lines 99--100
 []\OT1/ptm/m/n/12 Stagnation tem-per-a-ture at tur-bine in-let:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 175--176
+Underfull \hbox (badness 10000) in paragraph at lines 105--106
 []$\OML/cmm/m/it/12 C[]$ $[]$\OT1/ptm/m/n/12 :
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 []\OT1/ptm/m/n/12 Air at a stag-na-tion tem-per-a-ture of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 \OT1/cmr/m/n/12 300[]$ $[]$\OT1/ptm/m/n/12 and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 []$ \OT1/ptm/m/n/12 en-ters
  []
 
 
-Overfull \hbox (72.65475pt too wide) in paragraph at lines 184--186
+Overfull \hbox (72.65475pt too wide) in paragraph at lines 114--116
 []$
  []
 
 
-Underfull \hbox (badness 1762) in paragraph at lines 184--186
+Underfull \hbox (badness 1762) in paragraph at lines 114--116
 \OT1/ptm/m/n/12 and $[]$ has
  []
 
@@ -1080,24 +1091,24 @@ Underfull \hbox (badness 1762) in paragraph at lines 184--186
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 208--209
+Underfull \hbox (badness 4229) in paragraph at lines 138--139
 []\OT1/ptm/m/n/12 Lift-off dis-tance for a given air-craft of
  []
 
 
-Underfull \hbox (badness 1478) in paragraph at lines 208--209
+Underfull \hbox (badness 1478) in paragraph at lines 138--139
 \OT1/ptm/m/n/12 weight $\OML/cmm/m/it/12 W$ \OT1/ptm/m/n/12 is $\OML/cmm/m/it/1
 2 S[]$\OT1/ptm/m/n/12 . If the take-off weight
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 208--209
+Underfull \hbox (badness 3189) in paragraph at lines 138--139
 \OT1/ptm/m/n/12 is re-duced by $\OT1/cmr/m/n/12 10%$\OT1/ptm/m/n/12 , then the 
 mag-ni-tude
  []
 
 
-Overfull \hbox (23.63228pt too wide) in paragraph at lines 208--209
+Overfull \hbox (23.63228pt too wide) in paragraph at lines 138--139
 []$
  []
 
@@ -1108,13 +1119,13 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22886 strings out of 474222
- 480947 string characters out of 5748733
+ 22905 strings out of 474222
+ 481240 string characters out of 5748733
  1947975 words of memory out of 5000000
- 44627 multiletter control sequences out of 15000+600000
+ 44636 multiletter control sequences out of 15000+600000
  586931 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,7n,103p,1167b,755s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,7n,103p,1167b,775s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texli
@@ -1124,7 +1135,7 @@ onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/
 utmr8a.pfb>
-Output written on main.pdf (2 pages, 106627 bytes).
+Output written on main.pdf (2 pages, 106665 bytes).
 PDF statistics:
  60 PDF objects out of 1000 (max. 8388607)
  37 compressed objects within 1 object stream

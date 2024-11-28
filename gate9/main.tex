@@ -49,55 +49,13 @@
 
     \item A cantilever beam with flexural rigidity of $200$ Nm is loaded as shown in the figure. The deflection \brak{\text{in mm}} at the tip of the beam is $\cdots$
 
-\begin{center}
-\begin{tikzpicture}
-    % Draw the beam
-    \draw[thick] (0,0.5) -- (5,0.5);
-     \draw[thick] (0,0) -- (5,0);
-     \draw[thick] (5,0) -- (5,0.5);
-    \draw (0,1) -- (0,-1); % Fixed support
-    
-
-
-    % Draw the point load
-    \draw[thick, ->] (2.5,1) -- (2.5,0.5) node[right,above] {$500$ N}; % Load arrow and label
-    
-    % Labels for dimensions
-    \draw[<->] (0,-0.4) -- (5,-0.4) node[midway, below] {$100$ mm}; % Beam length label
-    \draw[<->] (0,-0.1) -- (2.5,-0.1) node[midway, below] {$50$ mm}; % Beam length label
-\end{tikzpicture}
-\end{center}
+\input{figs/fig1.tex}
 
  \item A precision instrument package $\brak{m = 1 \text{kg}}$ needs to be mounted on a surface vibrating at $60$ Hz. It is desired that only $5\%$ of the base surface vibration amplitude be transmitted to the instrument. Assume that the isolation is designed with its natural frequency significantly lesser than $60$ Hz, so that the effect of damping may be ignored. The stiffness $\brak{\text{in}\frac{N}{m}}$ of the required mounting pad is$\cdots$
 
 \item A horizontal plate has been joined to a vertical post using four rivets arranged as shown in the figure. The magnitude of the load on the worst-loaded rivet \brak{\text{in N}} is $\cdots$
 
-\begin{center}
-\begin{tikzpicture}
-    % Draw rivets as circles
-    \draw (0.4, 0.4) circle (2pt) node[above right] {};
-    \draw (0.4, -0.4) circle (2pt) node[below right] {};
-    \draw (-0.4, 0.4) circle (2pt) node[above left] {};
-    \draw (-0.4, -0.4) circle (2pt) node[below left] {};
-
-    
-
-    % Draw horizontal and vertical distances between rivets
-    \draw (0.5, 0.6) -- (-0.5, 0.6) ;
-    \draw (0.5, -0.6) -- (-0.5, -0.6);
-    \draw (-0.5, -0.6) -- (-0.5,0.6);
-    \draw (0.5, -0.6) -- (0.5, 0.6);
-    \draw (0.5, -0.6) -- (0.5, -1);
-    \draw (-0.5, -0.6) -- (-0.5, -1);
-   \draw (1, -1) -- (-1, -1);
-    \draw (0.5, 0.6) -- (2.5, 0.6) ;
-    \draw (0.5, -0.6) -- (2.5, -0.6) ;
-    \draw (2.5 ,0.6) -- (2.5 ,-0.6);
-    \draw[->] (2.5,-0.6) -- (2.5 ,-1) node[below]{$400N$} ;
-    \draw (0,0.4) -- (0,-0.4);
-    \draw[<->] (0,0) -- (2.5,0) node[below,midway]{$500 mm$};
-\end{tikzpicture}
-\end{center}
+\input{figs/fig2.tex}
 
  \item For flow through a pipe of radius $R$, the velocity and temperature distribution are as follows:
     $u\brak{r, x} = C_1$, and $T\brak{r, x} = C_2 \sbrak{1 - \brak{\frac{r}{R}}^2}$, where $C_1$ and $C_2$ are constants. The bulk mean temperature is given by
@@ -110,16 +68,7 @@
         \item $\frac{0.6C_2}{U_m}$
     \end{enumerate}
 \item Match the following pairs:
-	\begin{tabular}{|c|c|p{2.5cm}|}
-        \hline
-        \textbf{n.o} & \textbf{Equation } & \textbf{Physical Interpretation } \\
-        \hline
-        P&  $V \cdot V = 0 $ & \brak{I} Incompressible continuity equation  \\
-        Q & $D\mathbf{V} = 0  $ & \brak{II} Steady flow  \\
-        R & $V \cdot \nabla = 0 $ & \brak{III} Irrotational flow \\
-        S & $\frac{\partial a}{\partial t} = 0 \quad $ & \brak{IV} Zero acceleration of fluid particle  \\
-        \hline
-    \end{tabular}
+	\input{tables/table1.tex}
     
     The options are:
     \begin{enumerate}

@@ -1,0 +1,44 @@
+\centering
+\resizebox{0.3\textwidth}{!}{%  % Set to 50% of the text width
+\begin{circuitikz}
+\tikzstyle{every node}=[font=\LARGE]
+% Connections for the first AND gate
+\draw (5.5,9.75) to[short] (7.5,9.75);
+\draw (7.5,9.75) to[short] (7.75,9.75);
+\draw (7.5,9.25) to[short] (7.75,9.25);
+\draw (7.75,9.75) node[ieeestd and port, anchor=in 1, scale=0.89](port1){} (port1.out) to[short] (9.5,9.5);
+
+% Connections for other components
+\draw (5.75,8) to[short] (5.75,9.25);
+\draw (4.5,8.5) to[short] (5.75,8.5);
+\draw (7.75,8) to[short] (7.75,8);
+\draw (7.75,7.5) to[short] (7.75,7.5);
+\draw (7.75,8) node[ieeestd and port, anchor=in 1, scale=0.89](port2){} (port2.out) to[short] (9.5,7.75);
+\draw (6.5,7.5) to[short] (7.75,7.5);
+
+% OR gate connections
+\draw (9.5,9.5) to[short] (9.5,8.75);
+\draw (9.5,8.25) to[short] (11.5,8.25);
+\draw (9.5,8.75) to[short] (11.5,8.75);
+\draw (9.5,7.75) to[short] (9.5,8.25);
+\draw (11.25,8.75) to[short] (11.5,8.75);
+\draw (11.25,8.25) to[short] (11.5,8.25);
+\draw (11.5,8.75) node[ieeestd or port, anchor=in 1, scale=0.89](port3){} (port3.out) to[short] (13.25,8.5);
+
+% Output node and labels
+\node at (13.25,8.5) [circ] {};
+\node [font=\Large] at (14,8.5) {X};
+
+% Input labels
+\node [font=\Large] at (5,9.5) {$A_0$};
+\node [font=\Large] at (4,8.5) {C};
+\node [font=\Large] at (6,7.5) {$A_1$};
+
+% Additional short connections for clarity
+\draw (7.5,9.25) to[short] (5.75,9.25);
+\draw (7.5,8) to[short] (7.75,8);
+\draw (7.5,7.5) to[short] (7.75,7.5);
+\draw (5.75,8) to[short, -o] (7.75,8);
+
+\end{circuitikz}
+}%

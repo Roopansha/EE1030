@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  25 OCT 2024 19:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 NOV 2024 08:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1292,26 +1292,27 @@ Underfull \hbox (badness 3049) in paragraph at lines 61--62
 /n/12 ` shaft $=
  []
 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texlive/texmf-
-dist/fonts/enc/dvips/base/8r.enc}
+(./tables/table1.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/us
+r/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 184--184
+] (./figs/fig1.tex)
+(./tables/table2.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--5
 []|\OT1/txr/bx/n/9 Optimistic
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []|\OT1/txr/bx/n/9 Pessimistic
  []
 
-
-Underfull \hbox (badness 1442) in paragraph at lines 199--201
+)
+Underfull \hbox (badness 1442) in paragraph at lines 146--148
 []\OT1/txr/m/n/12 The crit-i-cal path du-ra-tion of the net-work
  []
 
-[2] (./main.aux)
+(./tables/table3.tex) [2] (./main.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
@@ -1320,13 +1321,13 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D6BF3C1739417282643EC507E7B78C12;1366.
  ) 
 Here is how much of TeX's memory you used:
- 30537 strings out of 474222
- 596907 string characters out of 5748733
+ 30563 strings out of 474222
+ 597369 string characters out of 5748733
  1958975 words of memory out of 5000000
- 52060 multiletter control sequences out of 15000+600000
+ 52072 multiletter control sequences out of 15000+600000
  628178 words of font info for 180 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,103p,1196b,821s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,12n,103p,1196b,841s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></usr/share/texlive/texmf-dist/f

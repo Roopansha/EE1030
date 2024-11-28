@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  25 OCT 2024 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 NOV 2024 08:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1003,7 +1003,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 -dist/fonts/enc/dvips/base/8r.enc}
 
 
-] [2
+] (./tables/table1.tex) [2
 
 ] (./main.aux)
  ***********
@@ -1012,10 +1012,10 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22817 strings out of 474222
- 479301 string characters out of 5748733
+ 22824 strings out of 474222
+ 479426 string characters out of 5748733
  1943975 words of memory out of 5000000
- 44558 multiletter control sequences out of 15000+600000
+ 44561 multiletter control sequences out of 15000+600000
  586931 words of font info for 97 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  101i,8n,103p,1167b,389s stack positions out of 10000i,1000n,20000p,200000b,200000s

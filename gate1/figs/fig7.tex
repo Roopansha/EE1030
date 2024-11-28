@@ -1,0 +1,37 @@
+\begin{tikzpicture}
+
+% Define coordinates for reference points
+\coordinate (P) at (0,0,0);  % Point P
+\coordinate (top) at (0,3,0);  % Top of the vertical segment
+\coordinate (end) at (5,3,0);  % End of the horizontal segment
+\coordinate (base1) at (-2,-0.5,-2);  % Base corners
+
+
+% Draw the base plate
+\draw[thick] (base1) -- ++(0,0,4) -- ++(4,0,0) -- ++(0,0,-4) -- cycle;
+
+
+% Draw the vertical segment (pipe)
+
+
+% Draw the horizontal segment (pipe)
+
+
+% Draw the 600 N force at the end of the pipe
+
+% Labels and dimensions
+\draw (-0.5,0,0) -- (-0.5,5,0);
+\draw (0.5,0,0) -- (0.5,4.5,0);
+\draw (6,5,0) -- (-0.5,5,0);
+\draw (6,4.5,0) -- (0.5,4.5,0);
+\draw (6,5.5,0) -- (-0.5,5.5,0) node[above,midway] {500mm};
+\draw (-1,0,0) -- (-1,5,0)node[left,midway] {300mm};
+\draw[->] (P) -- ++(0,7,0) node[above] {$y$};  % y-axis
+\draw[->] (P) -- ++(5,0,0) node[right] {$x$};  % x-axis
+\draw[->] (P) -- ++(0,0,4) node[below] {$z$};  % z-axis
+
+
+% Label point P
+\node at (-0.2,-0.2) {P};
+
+\end{tikzpicture}

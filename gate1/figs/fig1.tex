@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+     \draw[->, >=latex] (0,0) -- (5,0);
+     \draw[->, >=latex] (0,0) -- (0,5);
+     \draw (1,1) -- (4,1)node[midway] {$\leftarrow$}node[right] at (4,1){$1$};
+     \node[left] at (1,1){$2$};
+     \draw (1,1) -- (1,4)node[midway] {$\uparrow$}node[above] at (1,4){$3$};
+     \draw (4,1) parabola (1,4);
+     \draw[dashed] (1,0) -- (1,1);
+     \draw[dashed] (0,1) -- (1,1);
+     \draw[dashed] (0,4) -- (1,4);
+     \draw[dashed] (4,0) -- (4,1);
+     \node[below] at (1,0){$1m^3$};
+     \node[below] at (4,0){$V_1$};
+     \node[left] at (0,1){$100kPa$};
+     \node[left] at (0,4){$400kPa$};
+     \node[left] at (5,3){$PV^\gamma=constant$};
+\end{tikzpicture}

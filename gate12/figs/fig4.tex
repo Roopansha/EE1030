@@ -1,0 +1,13 @@
+\begin{tikzpicture}[scale=0.6] % Adjust the scale factor as needed
+    % Axes
+    \draw[->] (-1,0) -- (6,0) node[right] {$r/a_0$};
+    \draw[->] (0,-1) -- (0,4) node[above] {R(r)};
+
+    % Bézier curve from (0,0) to (5,3) with control points
+    \draw[thick, color=black]
+        (0,0) .. controls (0.5,5) and (1,-0.5) .. (3,0.1);
+
+    % Mark point
+    \fill (0,0) circle (2pt) node[below left] { O};
+\end{tikzpicture}
+

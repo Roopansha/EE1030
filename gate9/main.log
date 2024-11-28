@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 OCT 2024 13:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2024.10.8)  28 NOV 2024 08:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -963,61 +963,63 @@ LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 4
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
+) (./figs/fig1.tex)
+(./figs/fig2.tex)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Underfull \hbox (badness 7362) in paragraph at lines 115--116
+(./tables/table1.tex
+Underfull \hbox (badness 7362) in paragraph at lines 3--4
 []|\OT1/ptm/b/n/12 Physical In-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 []|$[]$ \OT1/ptm/m/n/12 In-com-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 press-ible
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
 \OT1/ptm/m/n/12 con-ti-nu-ity
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 []|$[]$ \OT1/ptm/m/n/12 Steady
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 []|$[]$
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 \OT1/ptm/m/n/12 Ir-ro-ta-tional
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 []|$[]$ \OT1/ptm/m/n/12 Zero
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 \OT1/ptm/m/n/12 ac-cel-er-a-tion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
 \OT1/ptm/m/n/12 of fluid
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--123
+)
+Underfull \hbox (badness 10000) in paragraph at lines 70--72
 []\OT1/ptm/m/n/12 Match the fol-low-ing pairs:
  []
 
@@ -1026,45 +1028,45 @@ dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Underfull \hbox (badness 2856) in paragraph at lines 146--147
+Underfull \hbox (badness 2856) in paragraph at lines 95--96
 []\OT1/ptm/m/n/12 The tem-per-a-ture of ni-tro-gen in a ves-sel
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \OT1/ptm/m/n/12 of vol-ume $\OT1/cmr/m/n/12 2 [][]$ \OT1/ptm/m/n/12 is $\OT1/cm
 r/m/n/12 288 []$\OT1/ptm/m/n/12 . A U-tube
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \OT1/ptm/m/n/12 manome-ter con-nected to the ves-sel
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 146--147
+Underfull \hbox (badness 6477) in paragraph at lines 95--96
 \OT1/ptm/m/n/12 shows a read-ing of $\OT1/cmr/m/n/12 70 []$ \OT1/ptm/m/n/12 of 
 mer-cury
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 []$\OT1/ptm/m/n/12 .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--147
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
 \OT1/ptm/m/n/12 at-mo-spheric pres-sure is $\OT1/cmr/m/n/12 1\OML/cmm/m/it/12 :
 \OT1/cmr/m/n/12 01325 []$\OT1/ptm/m/n/12 ,
  []
 
 
-Overfull \hbox (58.10622pt too wide) in paragraph at lines 148--149
+Overfull \hbox (58.10622pt too wide) in paragraph at lines 97--98
 []\OT1/ptm/m/n/12 Air $[]$
  []
 
 
-Underfull \hbox (badness 5359) in paragraph at lines 156--157
+Underfull \hbox (badness 5359) in paragraph at lines 105--106
 []\OT1/ptm/m/n/12 A well-insulated rigid con-tainer of vol-
  []
 
@@ -1075,13 +1077,13 @@ L3 programming layer <2020/03/25>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 22897 strings out of 474222
- 481171 string characters out of 5748733
- 1946975 words of memory out of 5000000
- 44634 multiletter control sequences out of 15000+600000
+ 22917 strings out of 474222
+ 481493 string characters out of 5748733
+ 1947975 words of memory out of 5000000
+ 44643 multiletter control sequences out of 15000+600000
  588966 words of font info for 101 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,10n,103p,1167b,823s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 101i,10n,103p,1167b,839s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl

@@ -1,0 +1,17 @@
+\begin{tikzpicture}
+    % Axes
+    \draw[thick,->] (0,0) -- (4,0) node[right] {$S$};
+    \draw[thick,->] (0,0) -- (0,4) node[above] {$T$};
+    
+    % Labels for points
+    \node[right] at (3,3) {$1$};
+    \node[left] at (1,1) {$2$};
+    \node[left] at (2,3) {$3$};
+    
+    % Curves
+    \draw (2,3) to (3,3);
+    \draw (1,1) parabola (3,3);
+    \draw (1,1) parabola (2,3);
+    
+   
+\end{tikzpicture}

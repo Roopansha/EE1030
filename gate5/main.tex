@@ -57,22 +57,7 @@
 
     \item A disc of mass $m$ is attached to a spring of stiffness $k$ as shown in the figure. The disc rolls without slipping on a horizontal surface. The natural frequency of vibration of the system is
 
-    \begin{center}
-    \begin{tikzpicture}
-        % Drawing the spring
-        \draw[thick, decoration={coil,aspect=0.5,segment length=3mm, amplitude=2mm}, decorate] (0,0) -- (3,0);
-        \node at (1.5,-0.5) {$k$};
-
-        % Drawing the disc
-        \draw[thick] (3,0) circle (0.3);
-        \node at (3,-0.7) {$m$};
-
-        \draw (-0.5,-0.3) -- (3,-0.3);
-        \draw (-0.5,0) -- (0,0);
-        \draw (-0.5,-0.3) -- (-0.5,0.3);
-    \end{tikzpicture}
-    \end{center}
-
+    \input{figs/fig1.tex}
     \begin{enumerate}
         \item $\frac{1}{2\pi} \sqrt{\frac{k}{m}}$
         \item $\frac{1}{2\pi} \sqrt{\frac{2k}{m}}$
@@ -82,17 +67,7 @@
 
 
     \item A $1$ kg block is resting on a surface with coefficient of friction $\mu= 0.1$. A force of $0.8$ N is applied to the block as shown in the figure. The friction force is
-    \begin{center}
-        \begin{tikzpicture}
-            % Block
-            \draw[thick] (0,0) rectangle (1,1);
-            \node at (0.5,0.5) {$1$ kg};
-            \draw (-1.5,0) -- (2,0);
-            % Force arrow
-            \draw[->, thick] (-1.5,0.5) -- (0,0.5);
-            \node at (-0.75,0.8) {$0.8$ N};
-        \end{tikzpicture}
-    \end{center}
+    \input{figs/fig2.tex}
     \begin{enumerate}
         \item $0$
         \item $0.8$ N
@@ -124,19 +99,7 @@
     \end{enumerate}
 
     \item Match the following non-traditional machining processes with the corresponding material removal mechanisms:
-    \begin{center}
-        \begin{center}
-    \begin{tabular}{|p{3cm}|p{3cm}|}
-        \hline
-        \textbf{Machining Process} & \textbf{Mechanism of Material Removal} \\
-        \hline
-        P. Chemical machining & $1.$ Erosion \\
-        Q. Electro-chemical machining & $2.$ Corrosive reaction \\
-        R. Electro-discharge machining & $3.$ Ion displacement \\
-        S. Ultrasonic machining & $4.$ Fusion and vaporization \\
-        \hline
-    \end{tabular}
-\end{center}
+    \input{tables/table1.tex}
 
     \end{center}
     \begin{enumerate}
